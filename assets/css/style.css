@@ -1,0 +1,11 @@
+.banner_img{
+width:100%;
+position: relative;
+}
+.yesh_navbar{
+    position: absolute;
+    z-index: 9;
+}
+.logo_yesh{
+    width: 120px
+}
