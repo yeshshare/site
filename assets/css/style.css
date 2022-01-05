@@ -1,5 +1,8 @@
 body{
     color: white;
+    font-family: 'Atyp Display'; 
+    font-weight: normal; 
+    font-style: normal;
 }
 .banner_img{
 width:100%;
@@ -12,8 +15,61 @@ position: relative;
     padding-right: 70px;
 
 }
+
+.yesh_card_footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: none !important;
+  border: none !important;
+}
+.yesh_nav_footer{
+  height: 100px;
+}
+.yesh_menu_iten{
+  align-items : center;
+}
+
 .logo_yesh{
-    width: 200px
+  width: 200px
+}
+
+.yesh_menu_logo{
+  text-align: right;
+  color: black;
+}
+
+.yesh_button_X{
+  color: white!important;
+}
+
+.wpp_img{
+  width: 184px;
+  background-color: white;
+  padding: 10px 27px;
+  border-radius: 32px;
+}
+
+.yesh_footer_line{
+  color: black;
+  position: relative;
+  top: 19px;
+}
+
+.yesh_footer_logo{
+  width: 150px; 
+  padding-top: 15px; 
+}
+
+.yesh_footer_logo:hover {
+  border-top-color: black;
+  border-top-style: solid ;
+  border-top-width: medium;
+}
+
+.yesh_footer_logo_rede{
+  width: 50px;  
+  padding-right: 10px;
 }
 
 .bar1, .bar2, .bar3 {
