@@ -42,8 +42,8 @@ position: relative;
 .yesh_col_custon{
   width: 20%!important;
   height: 20%;
-  min-width: 300px!important;
-  min-height: 300px!important;
+  min-width: 200px!important;
+  min-height: 200px!important;
   background-repeat: no-repeat;
   background-size: cover;
 }
