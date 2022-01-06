@@ -16,6 +16,61 @@ position: relative;
 
 }
 
+#sobre{
+  background-color: #fffbf0;
+}
+
+#sobre h1{
+  color: #fcbf00;
+  font-size:110px;
+  padding-top: 200px;
+  padding-bottom:11px;
+}
+
+#sobre p{
+  color: black;
+  padding-bottom: 50px;
+  font-size: 28px;
+}
+#sobre p b{
+  font-weight: bold;
+  font-size:21px;
+
+
+}
+
+.yesh_col_custon{
+  width: 20%!important;
+  height: 20%;
+  min-width: 300px!important;
+  min-height: 300px!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo_com{
+  background-image: url("./../../assets/imagens/bg_com.png");
+}
+
+#logo_live{
+  background-image: url("./../../assets/imagens/bg_live.png");
+}
+
+#logo_camp{
+  background-image: url("./../../assets/imagens/bg_camp.png");
+}
+
+#logo_play{
+  background-image: url("./../../assets/imagens/bg_play.png");
+}
+
+#logo_digital{
+  background-image: url("./../../assets/imagens/bg_digital.png");
+}
+
+
+
+
 .yesh_card_footer{
   position: absolute;
   bottom: 0;
@@ -27,7 +82,7 @@ position: relative;
   height: 100px;
 }
 .yesh_menu_iten{
-  align-items : center;
+  align-items : center;    
 }
 
 .logo_yesh{
