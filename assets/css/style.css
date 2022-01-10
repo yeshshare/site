@@ -84,8 +84,10 @@ position: relative;
 }
 
 .tamanho{
-  width: 300px;
+  min-width: 20%;
   height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .yesh_col_center{
