@@ -20,7 +20,7 @@ position: relative;
   background-color: #fffbf0;
 }
 
-#case{
+#cases{
   background-color: #fffbf0;
 }
 
@@ -36,7 +36,7 @@ position: relative;
   padding-bottom:11px;
 }
 
-#case h1{
+#cases h1{
   color: #fcbf00;
   font-size:110px;
   padding-top: 200px;
@@ -56,7 +56,7 @@ position: relative;
   font-size: 28px;
 }
 
-#case p{
+#cases p{
   color: black;
   padding-bottom: 50px;
   font-size: 28px;
