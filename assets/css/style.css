@@ -216,6 +216,21 @@ body {
     padding-right: 10px;
 }
 
+@media (max-width: 768px) {
+    .yesh_footer_logo_rede {
+        padding-top: 10px;
+    }
+
+    .yesh_footer_line {
+        display: none;
+    }
+
+    .yesh_footer_logo {
+        padding-bottom: 10px;
+    }
+
+}
+
 .bar1,
 .bar2,
 .bar3 {
