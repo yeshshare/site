@@ -220,15 +220,15 @@ body {
     .yesh_footer_logo_rede {
         padding-top: 10px;
     }
-
     .yesh_footer_line {
         display: none;
     }
-
     .yesh_footer_logo {
         padding-bottom: 10px;
     }
-
+    .yesh_footer_logo_rede {
+        padding-bottom: 10px;
+    }
 }
 
 .bar1,
