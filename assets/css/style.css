@@ -224,10 +224,13 @@ body {
         display: none;
     }
     .yesh_footer_logo {
-        padding-bottom: 10px;
+        padding-bottom: 25px;
     }
     .yesh_footer_logo_rede {
         padding-bottom: 10px;
+    }
+    .yesh_card_footer {
+        bottom: unset;
     }
 }
 
@@ -306,5 +309,22 @@ body {
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+}
+
+#menu_bu h5 {
+    display: block;
+}
+
+#menu_bu h3 {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #menu_bu h5 {
+        display: none;
+    }
+    #menu_bu h3 {
+        display: none;
     }
 }
