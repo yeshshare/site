@@ -69,7 +69,7 @@ body {
 
 .yesh_titulo_h1 {
     color: #fcbf00;
-    font-size: 5.875rem;
+    font-size: 5.4rem;
     padding-top: 200px;
     padding-bottom: 11px;
 }
@@ -220,15 +220,15 @@ body {
     .yesh_footer_logo_rede {
         padding-top: 10px;
     }
-
     .yesh_footer_line {
         display: none;
     }
-
     .yesh_footer_logo {
         padding-bottom: 10px;
     }
-
+    .yesh_footer_logo_rede {
+        padding-bottom: 10px;
+    }
 }
 
 .bar1,
