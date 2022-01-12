@@ -342,6 +342,43 @@ body {
     display: block;
 }
 
+.letreiro {
+    z-index: 99;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    width: 80%;
+    left: 10%;
+}
+
+.letreiro_caixa {
+    text-align: start;
+}
+
+.letreiro_caixa_titulo {
+    font-weight: bold;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+
+.letreiro_caixa_corpo {
+    font-weight: bold;
+    color: black;
+    font-size: 5.4rem;
+    line-height: 1.2em;
+}
+
+@media (max-width: 1366px) {
+    .letreiro {
+        top: 200px;
+    }
+    .letreiro_caixa_corpo {
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+}
+
 @media (max-width: 768px) {
     #menu_bu h5 {
         display: none;
