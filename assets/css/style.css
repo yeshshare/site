@@ -25,7 +25,7 @@ body {
     width: 200px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     #banner_home_logo {
         content: url("./../imagens/Bg_01.png");
     }
@@ -228,7 +228,7 @@ body {
     content: url("./../imagens/BeYesher.svg");
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .yesh_footer_logo_rede {
         padding-top: 25px;
     }
@@ -342,17 +342,11 @@ body {
     display: block;
 }
 
-.letreiro {
-    z-index: 99;
-    position: absolute;
-    text-align: center;
-    top: 200px;
-    width: 80%;
-    left: 10%;
-}
-
 .letreiro_caixa {
     text-align: start;
+    position: absolute;
+    z-index: 98;
+    top: 18vw;
 }
 
 .letreiro_caixa_titulo {
@@ -369,17 +363,28 @@ body {
     line-height: 1.2em;
 }
 
-@media (max-width: 1366px) {
-    .letreiro {
-        top: 200px;
-    }
+@media (max-width: 1491px) {
     .letreiro_caixa_corpo {
-        font-size: 2.4rem;
+        font-size: 4.4rem;
         line-height: 1.2em;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 961px) {
+    .letreiro_caixa_corpo {
+        font-size: 3.4rem;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 812px) {
+    .letreiro_caixa {
+        top: 40vw;
+    }
+    .letreiro_caixa_corpo {
+        font-size: 5.4rem;
+        line-height: 1.2em;
+    }
     #menu_bu h5 {
         display: none;
     }
@@ -389,5 +394,12 @@ body {
     .overlay-content {
         padding-right: 0;
         text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .letreiro_caixa_corpo {
+        font-size: 3.4rem;
+        line-height: 1.2em;
     }
 }
