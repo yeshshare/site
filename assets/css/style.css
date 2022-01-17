@@ -397,7 +397,14 @@ body {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 612px) {
+    .letreiro_caixa_corpo {
+        font-size: 4.4rem;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 504px) {
     .letreiro_caixa_corpo {
         font-size: 3.4rem;
         line-height: 1.2em;
