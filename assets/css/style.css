@@ -403,3 +403,10 @@ body {
         line-height: 1.2em;
     }
 }
+
+@media (max-width: 360px) {
+    .letreiro_caixa_corpo {
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+}
