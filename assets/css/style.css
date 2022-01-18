@@ -365,26 +365,31 @@ body {
 .case_1 {
     z-index: 98;
     top: 217vw;
+    display: none;
 }
 
 .case_2 {
     z-index: 98;
     top: 241vw;
+    display: none;
 }
 
 .case_3 {
     z-index: 98;
     top: 265vw;
+    display: none;
 }
 
 .case_4 {
     z-index: 98;
     top: 289vw;
+    display: none;
 }
 
 .case_5 {
     z-index: 98;
     top: 313vw;
+    display: none;
 }
 
 .home_titulo {
