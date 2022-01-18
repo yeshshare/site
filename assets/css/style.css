@@ -345,43 +345,169 @@ body {
 .letreiro_caixa {
     text-align: start;
     position: absolute;
+}
+
+.home {
     z-index: 98;
     top: 18vw;
 }
 
-.letreiro_caixa_titulo {
+.sobre {
+    z-index: 98;
+    top: 78vw;
+}
+
+.sobre_1 {
+    z-index: 98;
+    top: 132vw;
+}
+
+.case_1 {
+    z-index: 98;
+    top: 246vw;
+}
+
+.case_2 {
+    z-index: 98;
+    top: 271vw;
+}
+
+.case_3 {
+    z-index: 98;
+    top: 296vw;
+}
+
+.case_4 {
+    z-index: 98;
+    top: 321vw;
+}
+
+.case_5 {
+    z-index: 98;
+    top: 346vw;
+}
+
+.home_titulo {
     font-weight: bold;
     color: white;
     font-size: 1.4rem;
     line-height: 1.2em;
 }
 
-.letreiro_caixa_corpo {
+.home_corpo {
     font-weight: bold;
     color: black;
     font-size: 5.4rem;
     line-height: 1.2em;
 }
 
+.sobre_titulo {
+    font-weight: bold;
+    color: #fcbf00;
+    font-size: 8.4rem;
+    line-height: 1.2em;
+    letter-spacing: 10px;
+}
+
+.sobre_texto {
+    font-weight: 600;
+    color: #fcbf00;
+    font-size: 5.4rem;
+    line-height: 1.2em;
+}
+
+.sobre_corpo {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+
+.case_titulo {
+    font-weight: lighter;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.2em;
+}
+
+.case_corpo {
+    font-weight: lighter;
+    color: white;
+    font-size: 5rem;
+    line-height: 1.2em;
+}
+
+.case_botao {
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 17px 65px;
+    border-width: 2px;
+}
+
+.case_botao:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.case_link {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+
+@media (max-width: 1920px) {
+    .sobre_titulo {
+        font-size: 7.4rem;
+    }
+}
+
+@media (max-width: 1606px) {
+    .sobre_titulo {
+        font-size: 6.4rem;
+    }
+}
+
 @media (max-width: 1491px) {
-    .letreiro_caixa_corpo {
+    .home_corpo {
+        font-size: 4.4rem;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 1076px) {
+    .sobre_texto {
         font-size: 4.4rem;
         line-height: 1.2em;
     }
 }
 
 @media (max-width: 961px) {
-    .letreiro_caixa_corpo {
+    .home_corpo {
+        font-size: 3.4rem;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 860px) {
+    .sobre_texto {
         font-size: 3.4rem;
         line-height: 1.2em;
     }
 }
 
 @media (max-width: 812px) {
-    .letreiro_caixa {
+    .home {
         top: 40vw;
     }
-    .letreiro_caixa_corpo {
+    .sobre {
+        top: 322vw;
+    }
+    .sobre_1 {
+        top: 509vw;
+    }
+    .home_corpo {
         font-size: 5.4rem;
         line-height: 1.2em;
     }
@@ -398,21 +524,21 @@ body {
 }
 
 @media (max-width: 612px) {
-    .letreiro_caixa_corpo {
+    .home_corpo {
         font-size: 4.4rem;
         line-height: 1.2em;
     }
 }
 
 @media (max-width: 504px) {
-    .letreiro_caixa_corpo {
+    .home_corpo {
         font-size: 3.4rem;
         line-height: 1.2em;
     }
 }
 
 @media (max-width: 360px) {
-    .letreiro_caixa_corpo {
+    .home_corpo {
         font-size: 2.4rem;
         line-height: 1.2em;
     }
