@@ -5,20 +5,56 @@ body {
     font-style: normal;
 }
 
-#banner_home_logo {
-    content: url("./../imagens/BG.png");
+.banner {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#banner_sobre_logo_1 {
-    content: url("./../imagens/Background_02.png");
+#banner_home {
+    background-image: url("./../imagens/BG.png");
+    min-height: 100vh;
+    min-height: 1428px;
 }
 
-#banner_sobre_logo_2 {
-    content: url("./../imagens/Background_03.png");
+#banner_sobre_1 {
+    background-image: url("./../imagens/Background_02.png");
+    min-height: 1028px
 }
 
-#yesh_contatos_logo {
-    content: url("./../imagens/Background_fale-conosco.png");
+#banner_sobre_2 {
+    background-image: url("./../imagens/Background_03.png");
+    min-height: 1030px;
+}
+
+#banner_case_1 {
+    background-image: url("./../imagens/Case\ 01.png");
+    min-height: 449px;
+}
+
+#banner_case_2 {
+    background-image: url("./../imagens/Case\ 02.png");
+    min-height: 449px
+}
+
+#banner_case_3 {
+    background-image: url("./../imagens/Case\ 03.png");
+    min-height: 449px
+}
+
+#banner_case_4 {
+    background-image: url("./../imagens/Case\ 04.png");
+    min-height: 449px
+}
+
+#banner_case_5 {
+    background-image: url("./../imagens/Case\ 05.png");
+    min-height: 449px
+}
+
+#yesh_contatos {
+    background-image: url("./../imagens/Background_fale-conosco.png");
+    min-height: 1032px;
 }
 
 .logo_yesh {
@@ -26,17 +62,17 @@ body {
 }
 
 @media (max-width: 812px) {
-    #banner_home_logo {
-        content: url("./../imagens/Bg_01.png");
+    #banner_home {
+        background-image: url("./../imagens/Bg_01.png");
     }
     #banner_sobre_logo_1 {
-        content: url("./../imagens/Bg_02.png");
+        background-image: url("./../imagens/Bg_02.png");
     }
     #banner_sobre_logo_2 {
-        content: url("./../imagens/Bg_03.png");
+        background-image: url("./../imagens/Bg_03.png");
     }
     #yesh_contatos_logo {
-        content: url("./../imagens/Bg_04.png");
+        background-image: url("./../imagens/Bg_04.png");
     }
     .logo_yesh {
         display: none;
@@ -344,23 +380,19 @@ body {
 
 .letreiro_caixa {
     text-align: start;
-    position: absolute;
-    min-height: 500px;
+    padding-left: 10%;
 }
 
 .home {
-    z-index: 98;
-    top: 18vw;
+    padding-top: 495px;
 }
 
 .sobre {
-    z-index: 98;
-    top: 78vw;
+    padding-top: 329px;
 }
 
 .sobre_1 {
-    z-index: 98;
-    top: 132vw;
+    padding-top: 341px;
 }
 
 .home_titulo {
@@ -546,6 +578,30 @@ body {
 }
 
 @media (max-width: 2048px) {
+    #banner_home {
+        min-height: 1148px;
+    }
+    #banner_sobre_1 {
+        min-height: 1028px
+    }
+    #banner_sobre_2 {
+        min-height: 1030px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 245vw;
@@ -569,6 +625,30 @@ body {
 }
 
 @media (max-width: 1920px) {
+    #banner_home {
+        min-height: 1079px;
+    }
+    #banner_sobre_1 {
+        min-height: 1028px
+    }
+    #banner_sobre_2 {
+        min-height: 1030px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 250vw;
@@ -592,6 +672,30 @@ body {
 }
 
 @media (max-width: 1600px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 263vw;
@@ -618,6 +722,30 @@ body {
 }
 
 @media (max-width: 1440px) {
+    #banner_home {
+        min-height: 811px;
+    }
+    #banner_sobre_1 {
+        min-height: 809px
+    }
+    #banner_sobre_2 {
+        min-height: 809px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 272vw;
@@ -647,6 +775,30 @@ body {
 }
 
 @media (max-width: 1400px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 275vw;
@@ -673,6 +825,30 @@ body {
 }
 
 @media (max-width: 1366px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 280vw;
@@ -699,6 +875,30 @@ body {
 }
 
 @media (max-width: 1360px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 282vw;
@@ -731,6 +931,30 @@ body {
 }
 
 @media (max-width: 1280px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 287vw;
@@ -754,6 +978,30 @@ body {
 }
 
 @media (max-width: 1152px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 310vw;
@@ -780,6 +1028,30 @@ body {
 }
 
 @media (max-width: 1024px) {
+    #banner_home {
+        min-height: 901px;
+    }
+    #banner_sobre_1 {
+        min-height: 899px
+    }
+    #banner_sobre_2 {
+        min-height: 899px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 327vw;
@@ -815,30 +1087,34 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
-    .case_1 {
-        z-index: 98;
-        top: 327vw;
-    }
-    .case_2 {
-        z-index: 98;
-        top: 352vw;
-    }
-    .case_3 {
-        z-index: 98;
-        top: 377vw;
-    }
-    .case_4 {
-        z-index: 98;
-        top: 401vw;
-    }
-    .case_5 {
-        z-index: 98;
-        top: 425vw;
-    }
-}
-
 @media (max-width: 812px) {
+    #banner_home {
+        min-height: 1079px;
+    }
+    #banner_home {
+        min-height: 1441px;
+    }
+    #banner_sobre_1 {
+        min-height: 1028px
+    }
+    #banner_sobre_2 {
+        min-height: 1030px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 1004vw;
@@ -873,6 +1149,33 @@ body {
 }
 
 @media (max-width: 360px) {
+    #banner_home {
+        min-height: 1079px;
+    }
+    #banner_home {
+        min-height: 1441px;
+    }
+    #banner_sobre_1 {
+        min-height: 1028px
+    }
+    #banner_sobre_2 {
+        min-height: 1030px;
+    }
+    #banner_case_1 {
+        min-height: 449px;
+    }
+    #banner_case_2 {
+        min-height: 449px
+    }
+    #banner_case_3 {
+        min-height: 449px
+    }
+    #banner_case_4 {
+        min-height: 449px
+    }
+    #banner_case_5 {
+        min-height: 449px
+    }
     .case_1 {
         z-index: 98;
         top: 1004vw;
