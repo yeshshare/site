@@ -57,6 +57,68 @@ body {
     min-height: 1414px;
 }
 
+.logo_localizacao {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 1rem;
+}
+
+.contato_título {
+    color: black;
+    font-weight: bold;
+    font-size: 6.4rem;
+    padding-top: 200px;
+    padding-bottom: 11px;
+    margin-left: 11rem;
+}
+
+.contato_corpo {
+    color: black;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    margin-left: 10.2rem;
+    line-height: 3.5rem;
+}
+
+.contato_rede_logo {
+    padding-top: 253px;
+    padding-left: 14%;
+}
+
+.contato_corpo_2 {
+    color: black;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    margin-left: 15rem;
+    line-height: 3.5rem;
+}
+
+.yesh_contato_logo_rede {
+    width: 68px;
+    padding-right: 10px;
+}
+
+.wpp_contato_img {
+    width: 238px;
+    background-color: white;
+    padding: 10px 27px;
+    border-radius: 32px;
+}
+
+.campo {
+    background-color: transparent;
+    border-color: #000;
+    border-width: 0 0 2px;
+}
+
+.campo ::placeholder {
+    color: white;
+}
+
 .logo_yesh {
     width: 200px
 }
@@ -209,9 +271,9 @@ body {
 }
 
 .div_logo_cliente {
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: 10.2rem;
 }
 
 .yesh_menu_logo {
