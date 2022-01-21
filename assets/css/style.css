@@ -626,7 +626,7 @@ body {
 
 @media (max-width: 1920px) {
     #banner_home {
-        min-height: 1079px;
+        min-height: 1069px;
     }
     #banner_sobre_1 {
         min-height: 1028px
@@ -725,6 +725,9 @@ body {
     #banner_home {
         min-height: 811px;
     }
+    .home {
+        padding-top: 316px;
+    }
     #banner_sobre_1 {
         min-height: 809px
     }
@@ -776,13 +779,22 @@ body {
 
 @media (max-width: 1400px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 776px;
+    }
+    .home {
+        padding-top: 254px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 782px
+    }
+    .sobre {
+        padding-top: 321px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 782px;
+    }
+    .sobre_1 {
+        padding-top: 298px;
     }
     #banner_case_1 {
         min-height: 449px;
@@ -826,13 +838,13 @@ body {
 
 @media (max-width: 1366px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 768px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 768px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 768px;
     }
     #banner_case_1 {
         min-height: 449px;
@@ -876,13 +888,13 @@ body {
 
 @media (max-width: 1360px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 762px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 762px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 762px;
     }
     #banner_case_1 {
         min-height: 449px;
@@ -932,13 +944,13 @@ body {
 
 @media (max-width: 1280px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 717px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 719px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 720px;
     }
     #banner_case_1 {
         min-height: 449px;
@@ -979,13 +991,13 @@ body {
 
 @media (max-width: 1152px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 717px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 719px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 720px;
     }
     #banner_case_1 {
         min-height: 449px;
@@ -1029,13 +1041,13 @@ body {
 
 @media (max-width: 1024px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 768px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 768px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 768px;
     }
     #banner_case_1 {
         min-height: 449px;
