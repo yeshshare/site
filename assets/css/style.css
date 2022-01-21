@@ -52,9 +52,9 @@ body {
     min-height: 449px
 }
 
-#yesh_contatos {
+#banner_contatos {
     background-image: url("./../imagens/Background_fale-conosco.png");
-    min-height: 1032px;
+    min-height: 1414px;
 }
 
 .logo_yesh {
@@ -553,28 +553,28 @@ body {
 }
 
 .case_1 {
-    z-index: 98;
-    top: 217vw;
+    padding-top: 97px;
+    padding-left: 0;
 }
 
 .case_2 {
-    z-index: 98;
-    top: 243vw;
+    padding-top: 97px;
+    padding-left: 0;
 }
 
 .case_3 {
-    z-index: 98;
-    top: 268vw;
+    padding-top: 97px;
+    padding-left: 0;
 }
 
 .case_4 {
-    z-index: 98;
-    top: 292vw;
+    padding-top: 97px;
+    padding-left: 0;
 }
 
 .case_5 {
-    z-index: 98;
-    top: 317vw;
+    padding-top: 97px;
+    padding-left: 0;
 }
 
 @media (max-width: 2048px) {
@@ -626,7 +626,7 @@ body {
 
 @media (max-width: 1920px) {
     #banner_home {
-        min-height: 1079px;
+        min-height: 1069px;
     }
     #banner_sobre_1 {
         min-height: 1028px
@@ -682,19 +682,19 @@ body {
         min-height: 899px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 394px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 392px
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 393px
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 392px
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 392px
     }
     .case_1 {
         z-index: 98;
@@ -725,6 +725,9 @@ body {
     #banner_home {
         min-height: 811px;
     }
+    .home {
+        padding-top: 316px;
+    }
     #banner_sobre_1 {
         min-height: 809px
     }
@@ -732,19 +735,23 @@ body {
         min-height: 809px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 353px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 348px
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 353px
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 353px
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 353Px
+    }
+    .case_titulo {
+        font-size: 1.75rem;
+        line-height: 1em;
     }
     .case_1 {
         z-index: 98;
@@ -770,34 +777,44 @@ body {
         padding: 17px 33px;
     }
     .case_corpo {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        line-height: 0.8em;
     }
 }
 
 @media (max-width: 1400px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 776px;
+    }
+    .home {
+        padding-top: 254px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 782px
+    }
+    .sobre {
+        padding-top: 321px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 782px;
+    }
+    .sobre_1 {
+        padding-top: 298px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 338px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 343px
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 343px
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 343px
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 343Px
     }
     .case_1 {
         z-index: 98;
@@ -816,8 +833,8 @@ body {
         top: 349vw;
     }
     .case_5 {
-        z-index: 98;
-        top: 374vw;
+        padding-top: 86px;
+        padding-left: 0;
     }
     .case_botao {
         padding: 17px 30px;
@@ -826,28 +843,28 @@ body {
 
 @media (max-width: 1366px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 768px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 768px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 768px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 336px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 334px;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 332px;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 334px;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 334px;
     }
     .case_1 {
         z-index: 98;
@@ -876,28 +893,22 @@ body {
 
 @media (max-width: 1360px) {
     #banner_home {
-        min-height: 901px;
-    }
-    #banner_sobre_1 {
-        min-height: 899px
-    }
-    #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 762px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 335px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 334px;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 332px;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 334px;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 334px;
     }
     .case_1 {
         z-index: 98;
@@ -932,36 +943,36 @@ body {
 
 @media (max-width: 1280px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 717px;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 719px;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 720px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 310px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 314px;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 314px;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 313px;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 313px;
     }
     .case_1 {
         z-index: 98;
         top: 287vw;
     }
     .case_2 {
-        z-index: 98;
-        top: 312vw;
+        padding-top: 69px;
+        padding-left: 0;
     }
     .case_3 {
         z-index: 98;
@@ -979,48 +990,69 @@ body {
 
 @media (max-width: 1152px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 648px;
+    }
+    .home {
+        padding-top: 200px;
+    }
+    .home_titulo {
+        font-size: 1.2rem;
+    }
+    .home_corpo {
+        font-size: 3.4rem;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 647px;
+    }
+    .sobre {
+        padding-top: 310px;
+    }
+    .sobre_corpo {
+        font-size: 1.4rem;
+    }
+    .sobre_texto {
+        font-size: 4.4rem;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 647px;
+    }
+    .sobre_1 {
+        padding-top: 235px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 282px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 283px;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 280px;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 283px;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 283px;
     }
     .case_1 {
-        z-index: 98;
-        top: 310vw;
+        padding-top: 54px;
+        padding-left: 0;
     }
     .case_2 {
-        z-index: 98;
-        top: 335vw;
+        padding-top: 54px;
+        padding-left: 0;
     }
     .case_3 {
-        z-index: 98;
-        top: 360vw;
+        padding-top: 54px;
+        padding-left: 0;
     }
     .case_4 {
-        z-index: 98;
-        top: 384vw;
+        padding-top: 54px;
+        padding-left: 0;
     }
     .case_5 {
-        z-index: 98;
-        top: 408vw;
+        padding-top: 54px;
+        padding-left: 0;
     }
     .case_botao {
         padding: 17px 18px;
@@ -1029,28 +1061,66 @@ body {
 
 @media (max-width: 1024px) {
     #banner_home {
-        min-height: 901px;
+        min-height: 569px;
+    }
+    .home {
+        padding-top: 157px;
+    }
+    .home_titulo {
+        font-size: 1.2rem;
+    }
+    .home_corpo {
+        font-size: 3rem;
     }
     #banner_sobre_1 {
-        min-height: 899px
+        min-height: 571px;
+    }
+    .sobre {
+        padding-top: 289px;
+    }
+    .sobre_corpo {
+        font-size: 1.2rem;
+    }
+    .sobre_titulo {
+        font-size: 5rem;
     }
     #banner_sobre_2 {
-        min-height: 899px;
+        min-height: 576px;
+    }
+    .sobre_texto {
+        font-size: 3.4rem;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height: 250px;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 251px;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 251px;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 249px;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 251px;
+    }
+    .case_titulo {
+        font-size: 1.4rem;
+        line-height: 1em;
+    }
+    .case_corpo {
+        font-size: 2.4rem;
+        line-height: 0.2em;
+    }
+    .case_botao {
+        padding: 12px 17px;
+        font-size: 1rem;
+    }
+    .case_link {
+        color: white;
+        font-size: 1rem;
+        line-height: 1.2em;
     }
     .case_1 {
         z-index: 98;
