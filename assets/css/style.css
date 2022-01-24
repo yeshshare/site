@@ -13,48 +13,47 @@ body {
 
 #banner_home {
     background-image: url("./../imagens/BG.png");
-    min-height: 100vh;
-    min-height: 1428px;
+    min-height: 56vw;
 }
 
 #banner_sobre_1 {
     background-image: url("./../imagens/Background_02.png");
-    min-height: 1028px
+    min-height: 56vw;
 }
 
 #banner_sobre_2 {
     background-image: url("./../imagens/Background_03.png");
-    min-height: 1030px;
+    min-height: 56vw;
 }
 
 #banner_case_1 {
     background-image: url("./../imagens/Case\ 01.png");
-    min-height: 449px;
+    min-height: 17.53vw;
 }
 
 #banner_case_2 {
     background-image: url("./../imagens/Case\ 02.png");
-    min-height: 449px
+    min-height: 17.53vw;
 }
 
 #banner_case_3 {
     background-image: url("./../imagens/Case\ 03.png");
-    min-height: 449px
+    min-height: 17.53vw;
 }
 
 #banner_case_4 {
     background-image: url("./../imagens/Case\ 04.png");
-    min-height: 449px
+    min-height: 17.53vw;
 }
 
 #banner_case_5 {
     background-image: url("./../imagens/Case\ 05.png");
-    min-height: 449px
+    min-height: 17.53vw;
 }
 
 #banner_contatos {
     background-image: url("./../imagens/Background_fale-conosco.png");
-    min-height: 1414px;
+    min-height: 6.87vw;
 }
 
 .logo_localizacao {
@@ -110,9 +109,18 @@ body {
 }
 
 .campo {
-    background-color: transparent;
-    border-color: #000;
-    border-width: 0 0 2px;
+    font-family: 'Atyp Display';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.50rem;
+    background-color: white;
+}
+
+.campo option {
+    font-family: 'Atyp Display';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
 }
 
 .campo ::placeholder {
@@ -167,7 +175,7 @@ body {
 
 .yesh_titulo_h1 {
     color: #fcbf00;
-    font-size: 5.4rem;
+    font-size: 3.28vw;
     padding-top: 200px;
     padding-bottom: 11px;
 }
@@ -460,14 +468,14 @@ body {
 .home_titulo {
     font-weight: bold;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.33vw;
     line-height: 1.2em;
 }
 
 .home_corpo {
     font-weight: bold;
     color: black;
-    font-size: 5.4rem;
+    font-size: 3.28vw;
     line-height: 1.2em;
 }
 
@@ -482,20 +490,20 @@ body {
 .sobre_texto {
     font-weight: 600;
     color: #fcbf00;
-    font-size: 5.4rem;
+    font-size: 3.28vw;
     line-height: 1.2em;
 }
 
 .sobre_corpo {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.33vw;
     line-height: 1.2em;
 }
 
 .case_titulo {
     font-weight: lighter;
     color: white;
-    font-size: 2rem;
+    font-size: 1.25vw;
     line-height: 1.2em;
 }
 
@@ -516,6 +524,16 @@ body {
     border-width: 2px;
 }
 
+.case_botao_form {
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 17px 65px;
+    border-width: 3px;
+}
+
 .case_botao:hover {
     background-color: transparent;
     color: white;
@@ -523,8 +541,14 @@ body {
 
 .case_link {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.33vw;
     line-height: 1.2em;
+}
+
+#form_fale_conosco input,
+#form_fale_conosco textarea,
+#form_fale_conosco select {
+    border-radius: 15px;
 }
 
 @media (max-width: 1920px) {
@@ -578,7 +602,7 @@ body {
         top: 509vw;
     }
     .home_corpo {
-        font-size: 5.4rem;
+        font-size: 3.28vw;
         line-height: 1.2em;
     }
     #menu_bu h5 {
@@ -639,6 +663,8 @@ body {
     padding-left: 0;
 }
 
+
+/*
 @media (max-width: 2048px) {
     #banner_home {
         min-height: 1148px;
@@ -650,19 +676,19 @@ body {
         min-height: 1030px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height:  17.53vw;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     .case_1 {
         z-index: 98;
@@ -697,19 +723,19 @@ body {
         min-height: 1030px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height:  17.53vw;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     .case_1 {
         z-index: 98;
@@ -993,7 +1019,7 @@ body {
         top: 381vw;
     }
     .case_botao {
-        font-size: 1.4rem;
+        font-size:  19.33vw;
     }
     .case_corpo {
         font-size: 3rem;
@@ -1233,19 +1259,19 @@ body {
         min-height: 1030px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height:  17.53vw;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     .case_1 {
         z-index: 98;
@@ -1272,7 +1298,7 @@ body {
         font-size: 1rem;
     }
     .case_corpo {
-        font-size: 2rem;
+        font-size:  1.25vw;
         line-height: 0.1em;
     }
     .case_titulo {
@@ -1294,19 +1320,19 @@ body {
         min-height: 1030px;
     }
     #banner_case_1 {
-        min-height: 449px;
+        min-height:  17.53vw;
     }
     #banner_case_2 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_3 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_4 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     #banner_case_5 {
-        min-height: 449px
+        min-height: 17.53vw;
     }
     .case_1 {
         z-index: 98;
@@ -1333,10 +1359,11 @@ body {
         font-size: 1rem;
     }
     .case_corpo {
-        font-size: 2rem;
+        font-size:  1.25vw;
         line-height: 0.1em;
     }
     .case_titulo {
         font-size: 1.4rem;
     }
 }
+*/
