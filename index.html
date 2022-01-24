@@ -314,13 +314,14 @@
     <section id="clientes">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12">
                     <h1 class="yesh_titulo_h1">Clientes</h1>
 
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                                <p class="yesh_corpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                                <p class="yesh_corpo">
+                                    Conheça quem faz parte da nossa história.
                                 </p>
                                 <br><br>
                                 <p class="todos_titulo">Todos</p>
@@ -333,7 +334,7 @@
                                     <br>
                                 </p>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                                 <div>
                                     <div class="row linha_cliente">
                                         <div class="col-4">
@@ -450,12 +451,12 @@
     <section id="contatos">
         <div class="banner" id="banner_contatos">
             <div id="yesh_contatos_logo" class="div_banner">
-                <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10">
                     <h1 class="contato_título">Fale conosco!</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                     <div class="row">
                         <div class="col-1">
                             <div class="div_logo_cliente">
@@ -487,27 +488,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <div class="row">
-                        <div class="col-8">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                    <div class="row" id="form_fale_conosco">
+                        <div class="col-10">
                             <select class="form-select campo">
-                                <option selected>escolha o departamento</option>
-                                <option>YESH CAMP</option>
-                                <option>YESH COM</option>
-                                <option>YESH DIGITAL</option>
-                                <option>YESH LIVE</option>
-                                <option>YESH PLAY</option>                                
+                                <option selected>Escolha o departamento</option>
+                                <option>Yesh Camp</option>
+                                <option>Yesh Com</option>
+                                <option>Yesh Digital</option>
+                                <option>Yesh Live</option>
+                                <option>Yesh Play</option>                                
                             </select><br><br>
                         </div>
-                        <div class="col-8">
-                            <input type="email" class="form-control campo" id="email" placeholder="Insira o email" name="email"><br><br>
+                        <div class="col-10">
+                            <input type="email" class="form-control campo" id="email" placeholder="Insira o email*" name="email" required><br><br>
                         </div>
-                        <div class="col-8">
+                        <div class="col-10">
                             <input type="text" class="form-control campo" id="nome" placeholder="Insira o nome completo" name="nome">
                             <br><br>
                         </div>
-                        <div class="col-8">
-                            <textarea name="mensagem" id="mensagem" placeholder="em que podemos ajudar?" cols="30" rows="10" class="form-control campo"></textarea>
+                        <div class="col-10">
+                            <textarea name="mensagem" id="mensagem" placeholder="Em que podemos ajudar?" cols="30" rows="10" class="form-control campo"></textarea>
+                            <br><br>
+                        </div>
+                        <div class="col-10" style="text-align: end;">
+                            <a><button class="btn btn-outline-light case_botao_form" > <img src="assets/imagens/seta.png" alt=""></button > </a>
                         </div>
                     </div>
                 </div>
