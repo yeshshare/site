@@ -1,0 +1,279 @@
+:root {
+    --banner_home_portrait: url("./../imagens/BG.png");
+    --banner_home_landscape: url("./../imagens/Bg_01.png");
+    --banner_sobre_1_portrait: url("./../imagens/Background_02.png");
+    --banner_sobre_1_landscape: url("./../imagens/Bg_02.png");
+    --banner_sobre_2_portrait: url("./../imagens/Background_03.png");
+    --banner_sobre_2_landscape: url("./../imagens/Bg_03.png");
+    --banner_case_1_portrait: url("./../imagens/Case\ 01.png");
+    --banner_case_2_portrait: url("./../imagens/Case\ 02.png");
+    --banner_case_3_portrait: url("./../imagens/Case\ 03.png");
+    --banner_case_4_portrait: url("./../imagens/Case\ 04.png");
+    --banner_case_5_portrait: url("./../imagens/Case\ 05.png");
+    --banner_contatos_portrait: url("./../imagens/Background_fale-conosco.png");
+    --banner_contatos_landscape: url("./../imagens/Bg_04.png");
+}
+
+
+/*    color: var(--main-color) ;) */
+
+@media (min-width: 1281px) {
+    #banner_home {
+        background-image: var(--banner_home_portrait);
+        min-height: 56vw;
+    }
+    #banner_sobre_1 {
+        background-image: var(--banner_sobre_1_portrait);
+        min-height: 56vw;
+    }
+    #banner_sobre_2 {
+        background-image: var(--banner_sobre_2_portrait);
+        min-height: 56vw;
+    }
+    #banner_case_1 {
+        background-image: var(--banner_case_1_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_2 {
+        background-image: var(--banner_case_2_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_3 {
+        background-image: var(--banner_case_3_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_4 {
+        background-image: var(--banner_case_4_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_5 {
+        background-image: var(--banner_case_5_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_contatos {
+        background-image: var(--banner_contatos_portrait);
+        min-height: 6.87vw;
+    }
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #banner_home {
+        background-image: var(--banner_home_portrait);
+        min-height: 56vw;
+    }
+    #banner_sobre_1 {
+        background-image: var(--banner_sobre_1_portrait);
+        min-height: 56vw;
+    }
+    #banner_sobre_2 {
+        background-image: var(--banner_sobre_2_portrait);
+        min-height: 56vw;
+    }
+    #banner_case_1 {
+        background-image: var(--banner_case_1_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_2 {
+        background-image: var(--banner_case_2_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_3 {
+        background-image: var(--banner_case_3_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_4 {
+        background-image: var(--banner_case_4_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_5 {
+        background-image: var(--banner_case_5_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_contatos {
+        background-image: var(--banner_contatos_portrait);
+        min-height: 6.87vw;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #banner_home {
+        background-image: var(--banner_home_landscape);
+        min-height: 216vw;
+    }
+    .home {
+        padding-top: 83.33vw;
+    }
+    .home_titulo {
+        font-weight: bold;
+        color: white;
+        font-size: 3.33vw;
+        line-height: 1.2em;
+    }
+    .home_corpo {
+        font-weight: bold;
+        color: black;
+        font-size: 2.33vw;
+        line-height: 1.2em;
+    }
+    #banner_sobre_1 {
+        background-image: var(--banner_sobre_1_landscape);
+        min-height: 216vw;
+    }
+    .sobre {
+        padding-top: 105.85vw;
+    }
+    .sobre_corpo {
+        color: white;
+        font-size: 2.33vw;
+        line-height: 1.2em;
+    }
+    #banner_sobre_2 {
+        background-image: var(--banner_sobre_2_landscape);
+        min-height: 216vw;
+    }
+    .sobre_1 {
+        padding-top: 74.32vw;
+    }
+    .sobre_texto {
+        font-weight: 600;
+        color: #fcbf00;
+        font-size: 5.28vw;
+        line-height: 1.2em;
+    }
+    .sobre_texto {
+        font-weight: 600;
+        color: #fcbf00;
+        font-size: 5.28vw;
+        line-height: 1.2em;
+    }
+    #banner_case_1 {
+        background-image: var(--banner_case_1_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_2 {
+        background-image: var(--banner_case_2_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_3 {
+        background-image: var(--banner_case_3_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_4 {
+        background-image: var(--banner_case_4_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_case_5 {
+        background-image: var(--banner_case_5_portrait);
+        min-height: 17.53vw;
+    }
+    #banner_contatos {
+        background-image: var(--banner_contatos_portrait);
+        min-height: 6.87vw;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #banner_home {
+        background-image: var(--banner_home_landscape);
+        min-height: 216vw;
+    }
+    #banner_sobre_1 {
+        background-image: var(--banner_sobre_1_landscape);
+    }
+    #banner_sobre_2 {
+        background-image: var(--banner_sobre_2_landscape);
+    }
+    #banner_contatos {
+        background-image: var(--banner_contatos_landscape);
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #banner_home {
+        background-image: var(--banner_home_landscape);
+    }
+    .home {
+        padding-top: 83.33vw;
+    }
+    .home_titulo {
+        font-weight: bold;
+        color: white;
+        font-size: 3.33vw;
+        line-height: 1.2em;
+    }
+    .home_corpo {
+        font-weight: bold;
+        color: black;
+        font-size: 6.28vw;
+        line-height: 1.2em;
+    }
+    #banner_sobre_1 {
+        background-image: var(--banner_sobre_1_portrait);
+    }
+    #banner_sobre_2 {
+        background-image: var(--banner_sobre_2_landscape);
+    }
+    #banner_contatos {
+        background-image: var(--banner_contatos_landscape);
+    }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #banner_home {
+        background-image: var(--banner_home_landscape);
+    }
+    .home {
+        padding-top: 83.33vw;
+    }
+    .home_titulo {
+        font-weight: bold;
+        color: white;
+        font-size: 3.33vw;
+        line-height: 1.2em;
+    }
+    .home_corpo {
+        font-weight: bold;
+        color: black;
+        font-size: 6.28vw;
+        line-height: 1.2em;
+    }
+    #banner_sobre_1 {
+        background-image: var(--banner_sobre_1_landscape);
+    }
+    #banner_sobre_2 {
+        background-image: var(--banner_sobre_2_landscape);
+    }
+    #banner_contatos {
+        background-image: var(--banner_contatos_landscape);
+    }
+}
