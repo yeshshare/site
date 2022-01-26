@@ -223,3 +223,123 @@ body {
 #menu_bu h3 {
     display: block;
 }
+
+
+/* ---------AJUSTAR --)*/
+
+.yesh_contato_logo_rede {
+    width: 50px;
+}
+
+.contato_título {
+    color: black;
+    font-weight: bold;
+    font-size: 6.4rem;
+    padding-top: 7.8125vw;
+    padding-bottom: 11px;
+    margin-left: 11rem;
+}
+
+.contato_corpo {
+    color: black;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    margin-left: 10.2rem;
+    line-height: 3.5rem;
+}
+
+.wpp_contato_img {
+    width: 238px;
+    background-color: white;
+    padding: 10px 27px;
+    border-radius: 32px;
+}
+
+.campo {
+    font-family: 'Atyp Display';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.50rem;
+    background-color: white;
+}
+
+.campo option {
+    font-family: 'Atyp Display';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.campo ::placeholder {
+    color: white;
+}
+
+.banner_img {
+    width: 100%;
+    position: relative;
+}
+
+.todos_corpo {
+    color: black !important;
+    font-size: 1.213rem;
+    line-height: 1.9em;
+}
+
+.todos_titulo {
+    font-weight: bold;
+    color: black !important;
+    font-size: 1.213rem;
+}
+
+.case_titulo {
+    font-weight: lighter;
+    color: white;
+    font-size: 1vw;
+    line-height: 1.2em;
+}
+
+.case_corpo {
+    font-weight: lighter;
+    color: white;
+    font-size: 2.1vw;
+    line-height: 1.2em;
+}
+
+.case_botao {
+    color: white;
+    font-size: 1vw;
+    line-height: 1.2em;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5vw 0.8vw;
+    border-width: 2px;
+}
+
+.case_botao_form {
+    color: white;
+    font-size: 1vw;
+    line-height: 1.2em;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 17px 65px;
+    border-width: 3px;
+}
+
+.case_botao:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.case_link {
+    color: white;
+    font-size: 0.8vw;
+    line-height: 1.2em;
+}
+
+#form_fale_conosco input,
+#form_fale_conosco textarea,
+#form_fale_conosco select {
+    border-radius: 15px;
+}
