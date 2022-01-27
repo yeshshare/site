@@ -5,11 +5,28 @@ body {
     font-style: normal;
 }
 
-.logo_localizacao {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 1rem;
+.masthead {
+    text-align: start;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-color: #fffbf0;
 }
+
+.complete {
+    padding-top: 30.5rem;
+    padding-bottom: 30.5rem;
+}
+
+.semi {
+    padding-top: 15.25rem;
+    padding-bottom: 15.25rem;
+}
+
+
+/* clasese menu e nav bar )*/
 
 .logo_yesh {
     width: 200px
@@ -91,12 +108,6 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-}
-
-.div_logo_cliente {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 10.2rem;
 }
 
 .yesh_menu_logo {
@@ -224,11 +235,174 @@ body {
     display: block;
 }
 
+.titulo {
+    font-weight: bold;
+    color: black;
+    font-size: 9.375rem;
+    line-height: 1.2em;
+}
 
-/* ---------AJUSTAR --)*/
+.corpo {
+    color: white;
+    font-size: 51.2px;
+    line-height: 1.2em;
+}
+
+
+/* clasese menu e nav bar */
+
+
+/*estilo da home */
+
+.home {
+    background-image: url(../imagens/BG.png);
+    padding-left: 10%;
+}
+
+.home_titulo {
+    font-weight: bold;
+    color: black;
+    font-size: 9.375rem;
+    line-height: 1.2em;
+}
+
+.home_corpo {
+    color: white;
+    font-size: 51.2px;
+    line-height: 1.2em;
+}
+
+
+/*estilo da home */
+
+
+/*estilo da sobre */
+
+.sobre {
+    background-image: url(../imagens/Background_02.png);
+    padding-left: 10%;
+}
+
+.sobre_titulo {
+    font-weight: bold;
+    color: #fcbf00;
+    font-size: 9.375rem;
+    line-height: 1.2em;
+    letter-spacing: 10px;
+}
+
+.sobre_1 {
+    background-image: url(../imagens/Background_03.png);
+    padding-left: 10%;
+}
+
+.sobre_texto {
+    font-weight: 600;
+    color: #fcbf00;
+    font-size: 9.375rem;
+    line-height: 1.2em;
+}
+
+
+/*estilo da sobre */
+
+
+/*estilo da case */
+
+.yesh_titulo_h1 {
+    color: #fcbf00;
+    font-size: 9.375rem;
+}
+
+.yesh_corpo {
+    color: black;
+    font-size: 1.55rem;
+}
+
+.case_titulo {
+    font-weight: lighter;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.2em;
+}
+
+.case_corpo {
+    font-weight: lighter;
+    color: white;
+    font-size: 4rem;
+    line-height: 1.2em;
+}
+
+.case_botao {
+    color: white;
+    font-size: 1vw;
+    line-height: 3rem;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5vw 15.8px;
+    border-width: 2px;
+}
+
+.case_link {
+    color: white;
+    font-size: 0.8vw;
+    line-height: 1.2em;
+    padding-top: 15px;
+}
 
 .yesh_contato_logo_rede {
     width: 50px;
+    margin-left: 25px;
+}
+
+.case_1 {
+    background-image: url(../imagens/Case\ 01.png);
+}
+
+.case_2 {
+    background-image: url(../imagens/Case\ 02.png);
+}
+
+.case_3 {
+    background-image: url(../imagens/Case\ 03.png);
+}
+
+.case_4 {
+    background-image: url(../imagens/Case\ 04.png);
+}
+
+.case_5 {
+    background-image: url(../imagens/Case\ 05.png);
+}
+
+
+/*estilo da case */
+
+#areas {
+    background: url(../imagens/seta_combo.png) #fcbf00 no-repeat 98% 52.5% !important;
+    border-radius: 10px;
+    width: 57%;
+}
+
+.div_logo {
+    padding-bottom: 16px;
+}
+
+
+/*estilo da fle conosco */
+
+.contato {
+    background-image: url(../imagens/Background_fale-conosco.png);
+    padding-left: 10%;
+}
+
+.contato_corpo {
+    color: black;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    padding-bottom: 11px;
+    line-height: 3.5rem;
+    s padding-left: 25px;
 }
 
 .contato_título {
@@ -237,17 +411,6 @@ body {
     font-size: 6.4rem;
     padding-top: 7.8125vw;
     padding-bottom: 11px;
-    margin-left: 11rem;
-}
-
-.contato_corpo {
-    color: black;
-    font-weight: lighter;
-    font-size: 2.8rem;
-    padding-top: 20px;
-    padding-bottom: 11px;
-    margin-left: 10.2rem;
-    line-height: 3.5rem;
 }
 
 .wpp_contato_img {
@@ -256,6 +419,26 @@ body {
     padding: 10px 27px;
     border-radius: 32px;
 }
+
+.div_logo_cliente {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo_localizacao {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.contato_rede_logo {
+    padding-top: 516px;
+}
+
+
+/*estilo da fle conosco */
+
+
+/* ---------AJUSTAR --)*/
 
 .campo {
     font-family: 'Atyp Display';
@@ -307,16 +490,6 @@ body {
     line-height: 1.2em;
 }
 
-.case_botao {
-    color: white;
-    font-size: 1vw;
-    line-height: 1.2em;
-    font-weight: 600;
-    border-radius: 40px;
-    padding: 0.5vw 0.8vw;
-    border-width: 2px;
-}
-
 .case_botao_form {
     color: white;
     font-size: 1vw;
@@ -330,12 +503,6 @@ body {
 .case_botao:hover {
     background-color: transparent;
     color: white;
-}
-
-.case_link {
-    color: white;
-    font-size: 0.8vw;
-    line-height: 1.2em;
 }
 
 #form_fale_conosco input,
