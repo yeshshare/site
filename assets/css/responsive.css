@@ -51,6 +51,42 @@
     .titulo {
         font-size: 4.375rem;
     }
+    /*menu */
+    #menu_bu h5 {
+        display: none;
+    }
+    #menu_bu h3 {
+        display: none;
+    }
+    .overlay-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    .yesh_footer_logo_rede {
+        padding-top: 25px;
+    }
+    .yesh_footer_line {
+        display: none;
+    }
+    .yesh_footer_logo {
+        width: 65px;
+        padding-bottom: 25px;
+    }
+    .yesh_footer_logo_rede {
+        padding-bottom: 25px;
+    }
+    .yesh_card_footer {
+        bottom: unset;
+    }
+    #yesh_tag_logo {
+        content: url("./../imagens/Yesh_Tag_mb.png");
+    }
+    #yesh_cast_logo {
+        content: url("./../imagens/YeshCast_mb.png");
+    }
+    #yesh_beyesher_logo {
+        content: url("./../imagens/BeYesher_mb.png");
+    }
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
@@ -178,6 +214,42 @@
     .titulo {
         font-size: 4.375rem;
     }
+    /*menu */
+    #menu_bu h5 {
+        display: none;
+    }
+    #menu_bu h3 {
+        display: none;
+    }
+    .overlay-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    .yesh_footer_logo_rede {
+        padding-top: 25px;
+    }
+    .yesh_footer_line {
+        display: none;
+    }
+    .yesh_footer_logo {
+        width: 65px;
+        padding-bottom: 25px;
+    }
+    .yesh_footer_logo_rede {
+        padding-bottom: 25px;
+    }
+    .yesh_card_footer {
+        bottom: unset;
+    }
+    #yesh_tag_logo {
+        content: url("./../imagens/Yesh_Tag_mb.png");
+    }
+    #yesh_cast_logo {
+        content: url("./../imagens/YeshCast_mb.png");
+    }
+    #yesh_beyesher_logo {
+        content: url("./../imagens/BeYesher_mb.png");
+    }
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
@@ -304,6 +376,42 @@
     }
     .titulo {
         font-size: 4.375rem;
+    }
+    /*menu */
+    #menu_bu h5 {
+        display: none;
+    }
+    #menu_bu h3 {
+        display: none;
+    }
+    .overlay-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    .yesh_footer_logo_rede {
+        padding-top: 25px;
+    }
+    .yesh_footer_line {
+        display: none;
+    }
+    .yesh_footer_logo {
+        width: 65px;
+        padding-bottom: 25px;
+    }
+    .yesh_footer_logo_rede {
+        padding-bottom: 25px;
+    }
+    .yesh_card_footer {
+        bottom: unset;
+    }
+    #yesh_tag_logo {
+        content: url("./../imagens/Yesh_Tag_mb.png");
+    }
+    #yesh_cast_logo {
+        content: url("./../imagens/YeshCast_mb.png");
+    }
+    #yesh_beyesher_logo {
+        content: url("./../imagens/BeYesher_mb.png");
     }
     /*estilo da home */
     .home {
