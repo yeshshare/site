@@ -16,7 +16,162 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo_yesh {
+        display: none;
+    }
+    .masthead {
+        text-align: center;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        background-color: #fffbf0;
+    }
+    .complete {
+        padding-top: 15.25rem;
+        padding-bottom: 15.25rem;
+    }
+    .semi {
+        padding-top: 15.25rem;
+        padding-bottom: 15.25rem;
+    }
+    .corpo {
+        font-size: 1.2rem;
+    }
+    .titulo {
+        font-size: 4.375rem;
+    }
+    /*menu */
+    #menu_bu h5 {
+        display: none;
+    }
+    #menu_bu h3 {
+        display: none;
+    }
+    .overlay-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    .yesh_footer_logo_rede {
+        padding-top: 25px;
+    }
+    .yesh_footer_line {
+        display: none;
+    }
+    .yesh_footer_logo {
+        width: 65px;
+        padding-bottom: 25px;
+    }
+    .yesh_footer_logo_rede {
+        padding-bottom: 25px;
+    }
+    .yesh_card_footer {
+        bottom: unset;
+    }
+    #yesh_tag_logo {
+        content: url("./../imagens/Yesh_Tag_mb.png");
+    }
+    #yesh_cast_logo {
+        content: url("./../imagens/YeshCast_mb.png");
+    }
+    #yesh_beyesher_logo {
+        content: url("./../imagens/BeYesher_mb.png");
+    }
+    /*estilo da home */
+    .home {
+        background-image: url(../imagens/BG.png);
+        padding-left: 0;
+    }
+    /*estilo da home */
+    /*estilo da sobre */
+    .sobre {
+        background-image: url(../imagens/Background_02.png);
+        padding-left: 0;
+    }
+    .sobre_1 {
+        background-image: url(../imagens/Background_03.png);
+        padding-left: 0;
+    }
+    .sobre_texto {
+        font-size: 2.375rem;
+    }
+    /*estilo da sobre */
+    .logo_localizacao {
+        padding-top: 13px;
+        padding-bottom: 1px;
+        width: 20px;
+    }
+    .case_titulo {
+        font-weight: lighter;
+        color: white;
+        font-size: 0.8rem;
+        line-height: 1.2em;
+    }
+    .case_corpo {
+        font-weight: lighter;
+        color: white;
+        font-size: 1.68rem;
+        line-height: 1.2em;
+    }
+    .case_botao {
+        color: white;
+        font-size: 0.8rem;
+        line-height: 3rem;
+        font-weight: 600;
+        border-radius: 40px;
+        padding: 0.5vw 15.8px;
+        border-width: 2px;
+    }
+    .case_link {
+        color: white;
+        font-size: 0.8rem;
+        line-height: 1.2em;
+        padding-top: 15px;
+    }
+    /*estilo da fle conosco */
+    .contato {
+        background-image: url(../imagens/Background_fale-conosco.png);
+        padding-left: 0;
+    }
+    .contato_título {
+        color: black;
+        font-weight: bold;
+        font-size: 2.4rem;
+        padding-top: 7.8125vw;
+        padding-bottom: 11px;
+    }
+    .contato_corpo {
+        color: black;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        padding-bottom: 11px;
+        line-height: 3.5rem;
+        padding-left: 25px;
+    }
+    .contato_rede_logo {
+        padding-top: 48px;
+    }
+    .wpp_contato_img {
+        width: 53%;
+        background-color: white;
+        padding: 10px 27px;
+        border-radius: 32px;
+        margin-bottom: 20px;
+    }
+    .yesh_contato_logo_rede {
+        width: 35px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    #areas {
+        background: url(../imagens/seta_combo.png) #fcbf00 no-repeat 98% 52.5% !important;
+        border-radius: 10px;
+        width: 94%;
+        font-size: 0.8rem;
+    }
+}
 
 
 /* 
