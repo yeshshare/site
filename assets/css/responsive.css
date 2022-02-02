@@ -75,13 +75,14 @@
     #yesh_beyesher_logo {
         content: url("./../imagens/BeYesher_mb.png");
     }
+    /*menu */
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
         padding-left: 10%;
     }
     /*estilo da home */
-    /*estilo da sobre */
+    /*estilo sobre */
     .sobre {
         background-image: url(../imagens/Background_02.png);
         padding-left: 10%;
@@ -93,7 +94,11 @@
     .sobre_texto {
         font-size: 2.375rem;
     }
-    /*estilo da sobre */
+    /*estilo sobre */
+    /*estilo da case */
+    .case {
+        padding-left: 10%;
+    }
     .case_titulo {
         font-weight: lighter;
         color: white;
@@ -121,7 +126,8 @@
         line-height: 1.2em;
         padding-top: 3px;
     }
-    /*estilo da fle conosco */
+    /*estilo da case */
+    /*estilo da contato (fale conosco )*/
     .contato {
         background-image: url(../imagens/Background_fale-conosco.png);
         padding-left: 10%;
@@ -180,6 +186,7 @@
         padding-bottom: 1px;
         width: 29px;
     }
+    /*estilo da contato (fale conosco )*/
 }
 
 
@@ -252,13 +259,14 @@
     #yesh_beyesher_logo {
         content: url("./../imagens/BeYesher_mb.png");
     }
+    /*menu */
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
         padding-left: 0;
     }
     /*estilo da home */
-    /*estilo da sobre */
+    /*estilo sobre */
     .sobre {
         background-image: url(../imagens/Background_02.png);
         padding-left: 0;
@@ -270,7 +278,11 @@
     .sobre_texto {
         font-size: 2.375rem;
     }
-    /*estilo da sobre */
+    /*estilo sobre */
+    /*estilo da case */
+    .case {
+        padding-left: 0;
+    }
     .case_titulo {
         font-weight: lighter;
         color: white;
@@ -298,7 +310,8 @@
         line-height: 1.2em;
         padding-top: 15px;
     }
-    /*estilo da fle conosco */
+    /*estilo da case */
+    /*estilo da contato (fale conosco )*/
     .contato {
         background-image: url(../imagens/Background_fale-conosco.png);
         padding-left: 0;
@@ -357,6 +370,7 @@
         padding-bottom: 1px;
         width: 29px;
     }
+    /*estilo da contato (fale conosco )*/
 }
 
 
@@ -429,13 +443,14 @@
     #yesh_beyesher_logo {
         content: url("./../imagens/BeYesher_mb.png");
     }
+    /*menu */
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
         padding-left: 0;
     }
     /*estilo da home */
-    /*estilo da sobre */
+    /*estilo sobre */
     .sobre {
         background-image: url(../imagens/Background_02.png);
         padding-left: 0;
@@ -447,7 +462,11 @@
     .sobre_texto {
         font-size: 2.375rem;
     }
-    /*estilo da sobre */
+    /*estilo sobre */
+    /*estilo da case */
+    .case {
+        padding-left: 0;
+    }
     .case_titulo {
         font-weight: lighter;
         color: white;
@@ -475,7 +494,8 @@
         line-height: 1.2em;
         padding-top: 15px;
     }
-    /*estilo da fle conosco */
+    /*estilo da case */
+    /*estilo da contato (fale conosco )*/
     .contato {
         background-image: url(../imagens/Background_fale-conosco.png);
         padding-left: 0;
@@ -534,6 +554,7 @@
         padding-bottom: 1px;
         width: 29px;
     }
+    /*estilo da contato (fale conosco )*/
 }
 
 
@@ -606,13 +627,14 @@
     #yesh_beyesher_logo {
         content: url("./../imagens/BeYesher_mb.png");
     }
+    /*menu */
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
         padding-left: 0;
     }
     /*estilo da home */
-    /*estilo da sobre */
+    /*estilo sobre */
     .sobre {
         background-image: url(../imagens/Background_02.png);
         padding-left: 0;
@@ -624,7 +646,11 @@
     .sobre_texto {
         font-size: 2.375rem;
     }
-    /*estilo da sobre */
+    /*estilo sobre */
+    /*estilo da case */
+    .case {
+        padding-left: 0;
+    }
     .case_titulo {
         font-weight: lighter;
         color: white;
@@ -652,7 +678,8 @@
         line-height: 1.2em;
         padding-top: 15px;
     }
-    /*estilo da fle conosco */
+    /*estilo da case */
+    /*estilo da contato (fale conosco )*/
     .contato {
         background-image: url(../imagens/Background_fale-conosco.png);
         padding-left: 0;
@@ -711,6 +738,7 @@
         padding-bottom: 1px;
         width: 29px;
     }
+    /*estilo da contato (fale conosco )*/
 }
 
 
@@ -783,13 +811,14 @@
     #yesh_beyesher_logo {
         content: url("./../imagens/BeYesher_mb.png");
     }
+    /*menu */
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
         padding-left: 0;
     }
     /*estilo da home */
-    /*estilo da sobre */
+    /*estilo sobre */
     .sobre {
         background-image: url(../imagens/Background_02.png);
         padding-left: 0;
@@ -801,7 +830,11 @@
     .sobre_texto {
         font-size: 2.375rem;
     }
-    /*estilo da sobre */
+    /*estilo sobre */
+    /*estilo da case */
+    .case {
+        padding-left: 0;
+    }
     .case_titulo {
         font-weight: lighter;
         color: white;
@@ -829,7 +862,8 @@
         line-height: 1.2em;
         padding-top: 15px;
     }
-    /*estilo da fle conosco */
+    /*estilo da case */
+    /*estilo da contato (fale conosco )*/
     .contato {
         background-image: url(../imagens/Background_fale-conosco.png);
         padding-left: 0;
@@ -888,4 +922,5 @@
         padding-bottom: 1px;
         width: 29px;
     }
+    /*estilo da contato (fale conosco )*/
 }
