@@ -17,7 +17,7 @@
         display: none;
     }
     .masthead {
-        text-align: center;
+        text-align: start;
         color: #fff;
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -78,17 +78,17 @@
     /*estilo da home */
     .home {
         background-image: url(../imagens/BG.png);
-        padding-left: 0;
+        padding-left: 10%;
     }
     /*estilo da home */
     /*estilo da sobre */
     .sobre {
         background-image: url(../imagens/Background_02.png);
-        padding-left: 0;
+        padding-left: 10%;
     }
     .sobre_1 {
         background-image: url(../imagens/Background_03.png);
-        padding-left: 0;
+        padding-left: 10%;
     }
     .sobre_texto {
         font-size: 2.375rem;
@@ -108,23 +108,23 @@
     }
     .case_botao {
         color: white;
-        font-size: 1.8rem;
-        line-height: 3rem;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
         font-weight: 600;
         border-radius: 40px;
-        padding: 0.5vw 15.8px;
+        padding: 5px 29px;
         border-width: 2px;
     }
     .case_link {
         color: white;
         font-size: 1.2rem;
         line-height: 1.2em;
-        padding-top: 15px;
+        padding-top: 3px;
     }
     /*estilo da fle conosco */
     .contato {
         background-image: url(../imagens/Background_fale-conosco.png);
-        padding-left: 0;
+        padding-left: 10%;
     }
     .contato_título {
         color: black;
