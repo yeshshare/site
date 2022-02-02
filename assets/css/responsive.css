@@ -5,7 +5,7 @@
 
 @media (min-width: 1281px) {
     .logo_yesh {
-        display: none;
+        display: block;
     }
     .masthead {
         text-align: start;
