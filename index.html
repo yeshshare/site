@@ -465,7 +465,7 @@
                                 <textarea name="mensagem" id="mensagem" placeholder="Em que podemos ajudar?" cols="30" rows="10" class="form-control campo"></textarea>
                                 <br><br>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10" class="enviar_botao">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 enviar_botao">
                                 <a><button class="btn btn-outline-light case_botao_form" > <img src="assets/imagens/seta.png" alt=""></button > </a>
                             </div>
                         </div>
@@ -599,6 +599,7 @@
 
         window.addEventListener("scroll", function(event) {
             closeNav();
+            home_scroll = document.getElementById("home").scrollHeight;
             var scroll = this.scrollY;
             var img = document.getElementById('logo');
             if (scroll > (home_scroll - 100)) {

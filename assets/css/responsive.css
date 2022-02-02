@@ -3,16 +3,7 @@
 
 /*.col-md .col-xl .col-md .col-xxl)*/
 
-@media (min-width: 1281px) {}
-
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-  ## .col-md .col-xl
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1281px) {
     .logo_yesh {
         display: none;
     }
@@ -147,10 +138,10 @@
         margin: 0;
     }
     .contato_rede_logo {
-        padding-top: 48px;
+        padding-top: 561px;
     }
     .wpp_contato_img {
-        width: 53%;
+        width: 100%;
         background-color: white;
         padding: 10px 27px;
         border-radius: 32px;
@@ -185,6 +176,196 @@
         padding-top: 13px;
         padding-bottom: 1px;
         width: 29px;
+    }
+    .enviar_botao {
+        text-align: end;
+    }
+    /*estilo da contato (fale conosco )*/
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+  ## .col-md .col-xl
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .logo_yesh {
+        display: block;
+    }
+    .masthead {
+        text-align: start;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        background-color: #fffbf0;
+    }
+    .complete {
+        padding-top: 15.25rem;
+        padding-bottom: 15.25rem;
+    }
+    .semi {
+        padding-top: 15.25rem;
+        padding-bottom: 15.25rem;
+    }
+    .corpo {
+        font-size: 1.2rem;
+    }
+    .titulo {
+        font-size: 4.375rem;
+    }
+    /*menu */
+    #menu_bu h5 {
+        display: none;
+    }
+    #menu_bu h3 {
+        display: none;
+    }
+    .overlay-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    .yesh_footer_logo_rede {
+        padding-top: 25px;
+    }
+    .yesh_footer_line {
+        display: none;
+    }
+    .yesh_footer_logo {
+        width: 65px;
+        padding-bottom: 25px;
+    }
+    .yesh_footer_logo_rede {
+        padding-bottom: 25px;
+    }
+    .yesh_card_footer {
+        bottom: unset;
+    }
+    #yesh_tag_logo {
+        content: url("./../imagens/Yesh_Tag_mb.png");
+    }
+    #yesh_cast_logo {
+        content: url("./../imagens/YeshCast_mb.png");
+    }
+    #yesh_beyesher_logo {
+        content: url("./../imagens/BeYesher_mb.png");
+    }
+    /*menu */
+    /*estilo da home */
+    .home {
+        background-image: url(../imagens/BG.png);
+        padding-left: 10%;
+    }
+    /*estilo da home */
+    /*estilo sobre */
+    .sobre {
+        background-image: url(../imagens/Background_02.png);
+        padding-left: 10%;
+    }
+    .sobre_1 {
+        background-image: url(../imagens/Background_03.png);
+        padding-left: 10%;
+    }
+    .sobre_texto {
+        font-size: 2.375rem;
+    }
+    /*estilo sobre */
+    /*estilo da case */
+    .case {
+        padding-left: 10%;
+    }
+    .case_titulo {
+        font-weight: lighter;
+        color: white;
+        font-size: 1.8rem;
+        line-height: 1.2em;
+    }
+    .case_corpo {
+        font-weight: lighter;
+        color: white;
+        font-size: 2.68rem;
+        line-height: 1.2em;
+    }
+    .case_botao {
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+        border-radius: 40px;
+        padding: 5px 29px;
+        border-width: 2px;
+    }
+    .case_link {
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.2em;
+        padding-top: 3px;
+    }
+    /*estilo da case */
+    /*estilo da contato (fale conosco )*/
+    .contato {
+        background-image: url(../imagens/Background_fale-conosco.png);
+        padding-left: 10%;
+    }
+    .contato_título {
+        color: black;
+        font-weight: bold;
+        font-size: 3rem;
+        padding-bottom: 11px;
+    }
+    .contato_corpo {
+        color: black;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        padding-bottom: 0;
+        line-height: 3.5rem;
+        margin: 0;
+    }
+    .contato_rede_logo {
+        padding-top: 561px;
+    }
+    .wpp_contato_img {
+        width: 100%;
+        background-color: white;
+        padding: 10px 27px;
+        border-radius: 32px;
+        margin-bottom: 20px;
+    }
+    .yesh_contato_logo_rede {
+        width: 35px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    #areas {
+        background: url(../imagens/seta_combo.png) #fcbf00 no-repeat 98% 52.5% !important;
+        border-radius: 10px;
+        width: 94%;
+        font-size: 0.8rem;
+    }
+    .div_contato_img_texto {
+        text-align: center;
+        margin-left: 24%;
+    }
+    .div_redes_sociais {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+    .logo_localizacao {
+        padding-top: 13px;
+        padding-bottom: 1px;
+        width: 20px;
+    }
+    .logo_telefone {
+        padding-top: 13px;
+        padding-bottom: 1px;
+        width: 29px;
+    }
+    .enviar_botao {
+        text-align: end;
     }
     /*estilo da contato (fale conosco )*/
 }

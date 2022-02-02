@@ -262,7 +262,6 @@ body {
 .home_titulo {
     font-weight: bold;
     color: black;
-    font-size: 9.375rem;
     line-height: 1.2em;
 }
 
@@ -286,7 +285,6 @@ body {
 .sobre_titulo {
     font-weight: bold;
     color: #fcbf00;
-    font-size: 9.375rem;
     line-height: 1.2em;
     letter-spacing: 10px;
 }
@@ -299,7 +297,6 @@ body {
 .sobre_texto {
     font-weight: 600;
     color: #fcbf00;
-    font-size: 9.375rem;
     line-height: 1.2em;
 }
 
@@ -311,7 +308,6 @@ body {
 
 .yesh_titulo_h1 {
     color: #fcbf00;
-    font-size: 9.375rem;
 }
 
 .yesh_corpo {
