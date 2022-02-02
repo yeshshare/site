@@ -613,27 +613,23 @@
             cases_scroll = document.getElementById("cases").scrollHeight;
             clientes_scroll = document.getElementById("clientes").scrollHeight;
             contatos_scroll = document.getElementById("contatos").scrollHeight;
-            let teste = "topo : " + sobre_top;
-            teste += " | " + cases_top;
-            teste += " | " + clientes_top;
-            teste += " | " + contatos_top;
-            console.log(teste);
             var scroll = this.scrollY;
             if (scroll < (home_scroll - 100)) {
                 img.src = 'assets/imagens/Logo.png';
                 console.log("home");
-            }
-
-            if (scroll > (home_scroll - 100)) {
+            } else if (scroll > (home_scroll - 100) && scroll < (sobre_top + sobre_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                console.log("sobre");
+            } else if (scroll > (sobre_top + sobre_scroll) && scroll < (cases_top + cases_scroll)) {
+                img.src = 'assets/imagens/Logo_amarelo.png';
+                console.log("cases");
+            } else if (scroll > (cases_top + cases_scroll) && scroll < (clientes_top + clientes_scroll)) {
+                img.src = 'assets/imagens/Logo_amarelo.png';
+                console.log("clientes");
+            } else {
+                img.src = 'assets/imagens/Logo.png';
+                console.log("contatos");
             }
-
-            let str_scrool = home_scroll;
-            str_scrool += " | " + sobre_scroll;
-            str_scrool += " | " + cases_scroll;
-            str_scrool += " | " + clientes_scroll;
-            str_scrool += " | " + contatos_scroll;
-            console.log(str_scrool += " | " + scroll);
         });
     </script>
 </body>
