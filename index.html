@@ -617,11 +617,11 @@
             clientes_scroll = document.getElementById("clientes").scrollHeight;
             contatos_scroll = document.getElementById("contatos").scrollHeight;
             var scroll = this.scrollY;
-            if (scroll < (home_scroll - 100)) {
+            if (scroll < (home_scroll)) {
                 img.src = 'assets/imagens/Logo.png';
                 label_sesion.innerText = "";
                 console.log("home");
-            } else if (scroll > (home_scroll - 100) && scroll < (sobre_top + sobre_scroll)) {
+            } else if (scroll > (home_scroll) && scroll < (sobre_top + sobre_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/SOBRE";
                 console.log("sobre");
