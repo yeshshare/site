@@ -58,13 +58,13 @@
         bottom: unset;
     }
     #yesh_tag_logo {
-        content: url("./../imagens/Yesh_Tag_mb.png");
+        content: url("./../imagens/YeshTag.svg");
     }
     #yesh_cast_logo {
-        content: url("./../imagens/YeshCast_mb.png");
+        content: url("./../imagens/YeshCast.svg");
     }
     #yesh_beyesher_logo {
-        content: url("./../imagens/BeYesher_mb.png");
+        content: url("./../imagens/BeYesher.svg");
     }
     /*menu */
     /*estilo da home */
@@ -245,13 +245,13 @@
         bottom: unset;
     }
     #yesh_tag_logo {
-        content: url("./../imagens/Yesh_Tag_mb.png");
+        content: url("./../imagens/YeshTag.svg");
     }
     #yesh_cast_logo {
-        content: url("./../imagens/YeshCast_mb.png");
+        content: url("./../imagens/YeshCast.svg");
     }
     #yesh_beyesher_logo {
-        content: url("./../imagens/BeYesher_mb.png");
+        content: url("./../imagens/BeYesher.svg");
     }
     /*menu */
     /*estilo da home */
