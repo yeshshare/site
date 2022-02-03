@@ -17,7 +17,7 @@
             <div class="container-fluid">
 
                 <div class="d-flex justify-content-start">
-                    <h3></h3>
+                    <h3 id="label_sesion"></h3>
                 </div>
                 <!--<div class="d-flex justify-content-end">...</div>
                 <div class="d-flex justify-content-center">...</div>
@@ -593,6 +593,7 @@
         var cases_top = parseInt(cases.top);
         var clientes_top = parseInt(clientes.top);
         var contatos_top = parseInt(contatos.top);
+        var label_sesion = document.getElementById('label_sesion');
 
         function myFunction(x) {
             //x.classList.toggle("change");
@@ -607,6 +608,8 @@
 
         window.addEventListener("scroll", function(event) {
             closeNav();
+
+
             var img = document.getElementById('logo');
             home_scroll = document.getElementById("home").scrollHeight;
             sobre_scroll = document.getElementById("sobre").scrollHeight;
@@ -616,18 +619,23 @@
             var scroll = this.scrollY;
             if (scroll < (home_scroll - 100)) {
                 img.src = 'assets/imagens/Logo.png';
+                label_sesion.innerText = "";
                 console.log("home");
             } else if (scroll > (home_scroll - 100) && scroll < (sobre_top + sobre_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                label_sesion.innerText = "Sobre";
                 console.log("sobre");
             } else if (scroll > (sobre_top + sobre_scroll) && scroll < (cases_top + cases_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                label_sesion.innerText = "Cases";
                 console.log("cases");
             } else if (scroll > (cases_top + cases_scroll) && scroll < (clientes_top + clientes_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                label_sesion.innerText = "Clientes";
                 console.log("clientes");
             } else {
                 img.src = 'assets/imagens/Logo.png';
+                label_sesion.innerText = "Fale conosco";
                 console.log("contatos");
             }
         });
