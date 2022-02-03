@@ -49,6 +49,9 @@
 
             </div>
         </nav>
+        <div style="text-align: center;">
+            <hr id="pogress_line">
+        </div>
     </section>
     <!--nav bar-->
     <!--home-->
@@ -594,6 +597,8 @@
         var clientes_top = parseInt(clientes.top);
         var contatos_top = parseInt(contatos.top);
         var label_sesion = document.getElementById('label_sesion');
+        var pogress_line = document.getElementById('pogress_line');
+
 
         function myFunction(x) {
             //x.classList.toggle("change");
@@ -617,25 +622,35 @@
             clientes_scroll = document.getElementById("clientes").scrollHeight;
             contatos_scroll = document.getElementById("contatos").scrollHeight;
             var scroll = this.scrollY;
-            if (scroll < (home_scroll)) {
+            if (scroll < (home_scroll - 100)) {
                 img.src = 'assets/imagens/Logo.png';
                 label_sesion.innerText = "";
+                pogress_line.style.width = "20%";
+                pogress_line.style.left = "40%";
                 console.log("home");
             } else if (scroll > (home_scroll) && scroll < (sobre_top + sobre_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/SOBRE";
                 console.log("sobre");
+                pogress_line.style.width = "40%";
+                pogress_line.style.left = "30%";
             } else if (scroll > (sobre_top + sobre_scroll) && scroll < (cases_top + cases_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/CASES";
+                pogress_line.style.width = "60%";
+                pogress_line.style.left = "20%";
                 console.log("cases");
             } else if (scroll > (cases_top + cases_scroll) && scroll < (clientes_top + clientes_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/CLIENTES";
+                pogress_line.style.width = "80%";
+                pogress_line.style.left = "10%";
                 console.log("clientes");
             } else {
                 img.src = 'assets/imagens/Logo.png';
                 label_sesion.innerText = "/CONTATO";
+                pogress_line.style.width = "100%";
+                pogress_line.style.left = "0";
                 console.log("contatos");
             }
         });
