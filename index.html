@@ -623,19 +623,19 @@
                 console.log("home");
             } else if (scroll > (home_scroll - 100) && scroll < (sobre_top + sobre_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
-                label_sesion.innerText = "Sobre";
+                label_sesion.innerText = "/SOBRE";
                 console.log("sobre");
             } else if (scroll > (sobre_top + sobre_scroll) && scroll < (cases_top + cases_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
-                label_sesion.innerText = "Cases";
+                label_sesion.innerText = "/CASES";
                 console.log("cases");
             } else if (scroll > (cases_top + cases_scroll) && scroll < (clientes_top + clientes_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
-                label_sesion.innerText = "Clientes";
+                label_sesion.innerText = "/CLIENTES";
                 console.log("clientes");
             } else {
                 img.src = 'assets/imagens/Logo.png';
-                label_sesion.innerText = "Fale conosco";
+                label_sesion.innerText = "/CONTATO";
                 console.log("contatos");
             }
         });
