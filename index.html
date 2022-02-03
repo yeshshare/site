@@ -50,10 +50,10 @@
             </div>
         </nav>
         <div>
-            <hr id="pogress_line">
+            <hr class="line" id="pogress_line">
         </div>
         <div>
-            <hr id="base_line">
+            <hr class="line" id="base_line">
         </div>
     </section>
     <!--nav bar-->
@@ -602,6 +602,7 @@
         var label_sesion = document.getElementById('label_sesion');
         var pogress_line = document.getElementById('pogress_line');
         var base_line = document.getElementById('base_line');
+        var scroll = 0;
 
         function myFunction(x) {
             //x.classList.toggle("change");
@@ -624,22 +625,22 @@
             cases_scroll = document.getElementById("cases").scrollHeight;
             clientes_scroll = document.getElementById("clientes").scrollHeight;
             contatos_scroll = document.getElementById("contatos").scrollHeight;
-            var scroll = this.scrollY;
-            if (scroll < (home_scroll - 100)) {
+            scroll = this.scrollY;
+            if (scroll < (home_scroll - 10)) {
                 img.src = 'assets/imagens/Logo.png';
                 label_sesion.innerText = "";
                 configLine(20, "black");
                 console.log("home");
-            } else if (scroll > (home_scroll) && scroll < (sobre_top + sobre_scroll)) {
+            } else if (scroll > (home_scroll - 10) && scroll < (sobre_top + sobre_scroll - 10)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/SOBRE";
                 console.log("sobre");
                 configLine(40, "white");
-            } else if (scroll > (sobre_top + sobre_scroll) && scroll < (cases_top + cases_scroll)) {
+            } else if (scroll > (sobre_top + sobre_scroll - 10) && scroll < (cases_top + cases_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/CASES";
                 configLine(60, "black");
-            } else if (scroll > (cases_top + cases_scroll) && scroll < (clientes_top + clientes_scroll)) {
+            } else if (scroll > (cases_top + cases_scroll - 30) && scroll < (clientes_top + clientes_scroll - 10)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
                 label_sesion.innerText = "/CLIENTES";
                 configLine(80, "black");
