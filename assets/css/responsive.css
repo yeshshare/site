@@ -32,30 +32,30 @@
     }
     /*menu */
     #menu_bu h5 {
-        display: none;
+        display: block;
     }
     #menu_bu h3 {
-        display: none;
+        display: block;
     }
     .overlay-content {
         padding-right: 0;
-        text-align: center;
+        text-align: right;
     }
     .yesh_footer_logo_rede {
         padding-top: 25px;
     }
     .yesh_footer_line {
-        display: none;
+        display: block;
     }
     .yesh_footer_logo {
-        width: 65px;
+        width: 150px;
         padding-bottom: 25px;
     }
     .yesh_footer_logo_rede {
         padding-bottom: 25px;
     }
     .yesh_card_footer {
-        bottom: unset;
+        bottom: 0;
     }
     #yesh_tag_logo {
         content: url("./../imagens/YeshTag.svg");
