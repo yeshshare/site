@@ -25,6 +25,15 @@ body {
     top: 100px;
 }
 
+#base_line {
+    width: 100%;
+    color: black;
+    background-color: black;
+    height: 1px;
+    position: fixed;
+    top: 101px;
+}
+
 .complete {
     padding-top: 30.5rem;
     padding-bottom: 30.5rem;
