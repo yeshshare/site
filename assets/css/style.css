@@ -15,6 +15,25 @@ body {
     background-color: #fffbf0;
 }
 
+#pogress_line {
+    width: 20%;
+    left: 40%;
+    color: black;
+    background-color: black;
+    height: 3px;
+    position: fixed;
+    top: 100px;
+}
+
+#base_line {
+    width: 100%;
+    color: black;
+    background-color: black;
+    height: 1px;
+    position: fixed;
+    top: 101px;
+}
+
 .complete {
     padding-top: 30.5rem;
     padding-bottom: 30.5rem;

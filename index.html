@@ -17,7 +17,7 @@
             <div class="container-fluid">
 
                 <div class="d-flex justify-content-start">
-                    <h3></h3>
+                    <h3 id="label_sesion" style="color: firebrick;"></h3>
                 </div>
                 <!--<div class="d-flex justify-content-end">...</div>
                 <div class="d-flex justify-content-center">...</div>
@@ -49,6 +49,12 @@
 
             </div>
         </nav>
+        <div>
+            <hr id="pogress_line">
+        </div>
+        <div>
+            <hr id="base_line">
+        </div>
     </section>
     <!--nav bar-->
     <!--home-->
@@ -593,6 +599,9 @@
         var cases_top = parseInt(cases.top);
         var clientes_top = parseInt(clientes.top);
         var contatos_top = parseInt(contatos.top);
+        var label_sesion = document.getElementById('label_sesion');
+        var pogress_line = document.getElementById('pogress_line');
+
 
         function myFunction(x) {
             //x.classList.toggle("change");
@@ -607,6 +616,8 @@
 
         window.addEventListener("scroll", function(event) {
             closeNav();
+
+
             var img = document.getElementById('logo');
             home_scroll = document.getElementById("home").scrollHeight;
             sobre_scroll = document.getElementById("sobre").scrollHeight;
@@ -616,18 +627,33 @@
             var scroll = this.scrollY;
             if (scroll < (home_scroll - 100)) {
                 img.src = 'assets/imagens/Logo.png';
+                label_sesion.innerText = "";
+                pogress_line.style.width = "20%";
+                pogress_line.style.left = "40%";
                 console.log("home");
-            } else if (scroll > (home_scroll - 100) && scroll < (sobre_top + sobre_scroll)) {
+            } else if (scroll > (home_scroll) && scroll < (sobre_top + sobre_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                label_sesion.innerText = "/SOBRE";
                 console.log("sobre");
+                pogress_line.style.width = "40%";
+                pogress_line.style.left = "30%";
             } else if (scroll > (sobre_top + sobre_scroll) && scroll < (cases_top + cases_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                label_sesion.innerText = "/CASES";
+                pogress_line.style.width = "60%";
+                pogress_line.style.left = "20%";
                 console.log("cases");
             } else if (scroll > (cases_top + cases_scroll) && scroll < (clientes_top + clientes_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
+                label_sesion.innerText = "/CLIENTES";
+                pogress_line.style.width = "80%";
+                pogress_line.style.left = "10%";
                 console.log("clientes");
             } else {
                 img.src = 'assets/imagens/Logo.png';
+                label_sesion.innerText = "/CONTATO";
+                pogress_line.style.width = "100%";
+                pogress_line.style.left = "0";
                 console.log("contatos");
             }
         });
