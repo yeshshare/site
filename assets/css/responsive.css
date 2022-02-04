@@ -141,7 +141,7 @@
         padding-top: 561px;
     }
     .wpp_contato_img {
-        width: 100%;
+        width: 200px;
         background-color: white;
         padding: 10px 27px;
         border-radius: 32px;
@@ -164,7 +164,7 @@
     }
     .div_redes_sociais {
         text-align: center;
-        padding-top: 0;
+        padding-top: 15px;
         padding-bottom: 25px;
     }
     .logo_localizacao {
