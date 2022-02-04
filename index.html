@@ -694,12 +694,18 @@
             cases_top = parseInt(cases.top) + this.scrollY;
             clientes_top = parseInt(clientes.top) + this.scrollY;
             contatos_top = parseInt(contatos.top) + this.scrollY;
-            testPosition();
+            //stestPosition();
         }
 
         /*
             Atualiza os elementos do nav bar de acordo 
             com o posicionamento da rolagem da tela
+            faz a identificação do inicio e final das seções 
+            baseoado nos valores ds topos das seções recuperados na função getPosition
+            realiza os ajuste atravez das seguintes funções:
+            configTag - atualiazando icone de hamburger do menu e tag de indentificação de seção
+            configLine - atualizando barra de progrssão de tela
+
         */
         function updateElements() {
             scroll = this.scrollY;
