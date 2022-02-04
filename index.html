@@ -596,6 +596,9 @@
         var cases = document.getElementById("cases").getBoundingClientRect();
         var clientes = document.getElementById("clientes").getBoundingClientRect();
         var contatos = document.getElementById("contatos").getBoundingClientRect();
+        var bar1 = document.getElementsByClassName("bar1");
+        var bar2 = document.getElementsByClassName("bar2");
+        var bar3 = document.getElementsByClassName("bar3");
         var sobre_top = parseInt(sobre.top);
         var cases_top = parseInt(cases.top);
         var clientes_top = parseInt(clientes.top);
@@ -627,24 +630,23 @@
             if (scroll < (home_scroll - 10)) {
                 img.src = 'assets/imagens/Logo.png';
                 label_sesion.innerText = "";
+                configTag("    ", "white");
                 configLine(20, "black");
-                console.log("home");
             } else if (scroll > (home_scroll - 10) && scroll < (sobre_top + sobre_scroll - 10)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
-                label_sesion.innerText = "/SOBRE";
-                console.log("sobre");
+                configTag("/SOBRE", "#fcbf00");
                 configLine(40, "white");
             } else if (scroll > (sobre_top + sobre_scroll - 10) && scroll < (cases_top + cases_scroll)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
-                label_sesion.innerText = "/CASES";
+                configTag("/CASES", "black");
                 configLine(60, "black");
             } else if (scroll > (cases_top + cases_scroll - 30) && scroll < (clientes_top + clientes_scroll - 10)) {
                 img.src = 'assets/imagens/Logo_amarelo.png';
-                label_sesion.innerText = "/CLIENTES";
+                configTag("/CLIENTES", "#fcbf00");
                 configLine(80, "black");
             } else {
                 img.src = 'assets/imagens/Logo.png';
-                label_sesion.innerText = "/CONTATO";
+                configTag("/CONTATO", "white");
                 configLine(100, "black");
             }
         });
@@ -660,6 +662,14 @@
             pogress_line.style.backgroundColor = cor;
             base_line.style.color = cor;
             base_line.style.backgroundColor = cor;
+        }
+
+        function configTag(texto, cor) {
+            label_sesion.innerText = texto;
+            label_sesion.style.color = cor;
+            bar1[0].style.backgroundColor = cor;
+            bar2[0].style.backgroundColor = cor;
+            bar3[0].style.backgroundColor = cor;
         }
     </script>
 </body>
