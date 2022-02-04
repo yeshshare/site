@@ -36,7 +36,7 @@
                 <div class="d-flex justify-content-end">
                     <div class="row">
                         <div class="col">
-                            <div class="" id="btn_H" onclick="myFunction(this)">
+                            <div class="" id="btn_H" onclick="openNav(this)">
                                 <div class="bar1"></div>
                                 <div class="bar2"></div>
                                 <div class="bar3"></div>
@@ -589,8 +589,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        //inicia variaveis 
         var nav_open = false;
         var sobre_top, cases_top, clientes_top, contatos_top, scroll = 0;
+        //associação de variaveis a elementos do html
         var label_sesion = document.getElementById('label_sesion');
         var pogress_line = document.getElementById('pogress_line');
         var base_line = document.getElementById('base_line');
@@ -598,30 +600,57 @@
         var bar1 = document.getElementsByClassName("bar1");
         var bar2 = document.getElementsByClassName("bar2");
         var bar3 = document.getElementsByClassName("bar3");
+        /*
+        retorna o tamanho de um elemento e 
+        sua posição relativa ao viewport para uma detrminada variavel
+        */
         var sobre = document.getElementById("sobre").getBoundingClientRect();
         var cases = document.getElementById("cases").getBoundingClientRect();
         var clientes = document.getElementById("clientes").getBoundingClientRect();
         var contatos = document.getElementById("contatos").getBoundingClientRect();
-        getPosition();
-        updateElements();
+        getPosition(); //chama função parar recuperar o posicionamento das seções 
+        updateElements(); // atualiza os elemento da tela
 
-        function myFunction(x) {
+        //funções para abrir menu        
+        function openNav(x) {
             //x.classList.toggle("change");
             document.getElementById("myNav").style.width = "100%";
             document.getElementById("btn_H").style.display = "none";
         }
 
+        //funções para abrir menu
         function closeNav() {
             document.getElementById("myNav").style.width = "0%";
             document.getElementById("btn_H").style.display = "block";
         }
 
+        /*
+            adiciona um evento na pagina que dispara uma função anonima 
+            quando há alguma movimentação na rolagemda paniga
+        */
         window.addEventListener("scroll", function(event) {
             closeNav();
-            //getPosition();
+            updateElements(); // atualiza os elemento da tela
+        });
+
+        /*
+            adiciona um evento na pagina que dispara uma função anonima 
+            quando a pagiana é redimencionada
+        */
+        window.addEventListener("resize", function(event) {
+            getPosition();
             updateElements();
         });
 
+
+
+        /*
+            Define  comprotamento do conjuto de barra de progressão 
+            da tela definindo sua cor e largura da barra interna
+            parametros:
+            largura - define a largura da barra interna em %
+            cor - define a cor das barras
+        */
         function configLine(tamanho, cor) {
             diferenca = 100 - tamanho;
             margem = diferenca / 2;
@@ -635,6 +664,14 @@
             base_line.style.backgroundColor = cor;
         }
 
+        /*
+            Define  comprotamento da tag de identificação da seção
+            e do icone de hamburger do menu definindo sua cor e 
+            texto da tag
+            parametros :
+            texto - texto da tag
+            cor - define a cor do texto e do icone
+        */
         function configTag(texto, cor) {
             label_sesion.innerText = texto;
             label_sesion.style.color = cor;
@@ -643,13 +680,27 @@
             bar3[0].style.backgroundColor = cor;
         }
 
+        /*
+            Recupera o valor do topo das seçoes 
+            e retora a variaveis para uso porterior
+            obs: o valor de retorno leva em consideração 
+            o posicionamento atual da rolagem caso o carregamento
+            ocorra e a rolagem esteja no meio da pagina;
+            Para isso ele soma o valor da rolagem ao 
+            valor do topo do elemento 
+        */
         function getPosition() {
             sobre_top = parseInt(sobre.top) + this.scrollY;
             cases_top = parseInt(cases.top) + this.scrollY;
             clientes_top = parseInt(clientes.top) + this.scrollY;
             contatos_top = parseInt(contatos.top) + this.scrollY;
+            testPosition();
         }
 
+        /*
+            Atualiza os elementos do nav bar de acordo 
+            com o posicionamento da rolagem da tela
+        */
         function updateElements() {
             scroll = this.scrollY;
             console.log(scroll);
@@ -685,6 +736,19 @@
             img.src = url;
             configTag(texto, cor);
             configLine(tamanho, cor);
+        }
+
+        /*
+        função executa uma aditoria nos 
+        valores de retorno das posiçoes do top via console
+        */
+        function testPosition() {
+            let barra = " | ";
+            let teste = sobre_top
+            teste += barra + cases_top
+            teste += barra + clientes_top
+            teste += barra + contatos_top;
+            console.log(teste);
         }
     </script>
 </body>
