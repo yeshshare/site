@@ -654,28 +654,37 @@
             scroll = this.scrollY;
             console.log(scroll);
             console.log(sobre_top + " | " + cases_top + " | " + clientes_top + " | " + contatos_top);
+            let cor, texto, url = "";
+            let tamanho = 0;
             if (scroll < sobre_top) {
-                img.src = 'assets/imagens/Logo.png';
-                label_sesion.innerText = "";
-                configTag("    ", "white");
-                configLine(20, "black");
+                url = 'assets/imagens/Logo.png';
+                cor = "white";
+                texto = "";
+                tamanho = 20;
             } else if (scroll > sobre_top && scroll < cases_top) {
-                img.src = 'assets/imagens/Logo_amarelo.png';
-                configTag("/SOBRE", "#fcbf00");
-                configLine(40, "white");
+                url = 'assets/imagens/Logo_amarelo.png';
+                cor = "#fcbf00";
+                texto = "/SOBRE";
+                tamanho = 40;
             } else if (scroll > cases_top && scroll < clientes_top) {
-                img.src = 'assets/imagens/Logo_amarelo.png';
-                configTag("/CASES", "black");
-                configLine(60, "black");
+                url = 'assets/imagens/Logo_amarelo.png';
+                cor = "black";
+                texto = "/CASES";
+                tamanho = 60;
             } else if (scroll > clientes_top && scroll < contatos_top) {
-                img.src = 'assets/imagens/Logo_amarelo.png';
-                configTag("/CLIENTES", "#fcbf00");
-                configLine(80, "black");
+                url = 'assets/imagens/Logo_amarelo.png';
+                cor = "#fcbf00";
+                texto = "/CLIENTES";
+                tamanho = 80;
             } else if (scroll > contatos_top) {
-                img.src = 'assets/imagens/Logo.png';
-                configTag("/CONTATO", "white");
-                configLine(100, "black");
+                url = 'assets/imagens/Logo.png';
+                cor = "white";
+                texto = "/CONTATO";
+                tamanho = 100;
             }
+            img.src = url;
+            configTag(texto, cor);
+            configLine(tamanho, cor);
         }
     </script>
 </body>
