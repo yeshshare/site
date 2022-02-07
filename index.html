@@ -589,6 +589,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        var cat = {};
+        cat.nome = "Bianca";
+        cat.sexo = "Feminino";
+        localStorage.setItem('myCat', JSON.stringify(cat));
+        gato = JSON.parse(localStorage.getItem('myCat'));
+        console.log(gato);
+        console.log(gato.nome);
+        console.log(gato.sexo);
         //inicia variaveis 
         var nav_open = false;
         var sobre_top, cases_top, clientes_top, contatos_top, scroll = 0;
@@ -631,6 +639,7 @@
         window.addEventListener("scroll", function(event) {
             closeNav();
             updateElements(); // atualiza os elemento da tela
+            testPosition();
         });
 
         /*
@@ -690,6 +699,10 @@
             valor do topo do elemento 
         */
         function getPosition() {
+            var sobre = document.getElementById("sobre").getBoundingClientRect();
+            var cases = document.getElementById("cases").getBoundingClientRect();
+            var clientes = document.getElementById("clientes").getBoundingClientRect();
+            var contatos = document.getElementById("contatos").getBoundingClientRect();
             sobre_top = parseInt(sobre.top) + this.scrollY;
             cases_top = parseInt(cases.top) + this.scrollY;
             clientes_top = parseInt(clientes.top) + this.scrollY;
@@ -709,8 +722,8 @@
         */
         function updateElements() {
             scroll = this.scrollY;
-            console.log(scroll);
-            console.log(sobre_top + " | " + cases_top + " | " + clientes_top + " | " + contatos_top);
+            //console.log(scroll);
+            //console.log(sobre_top + " | " + cases_top + " | " + clientes_top + " | " + contatos_top);
             let cor, texto, url = "";
             let tamanho = 0;
             scroll = (scroll > 0) ? scroll + 1 : scroll;
@@ -755,6 +768,7 @@
             teste += barra + cases_top
             teste += barra + clientes_top
             teste += barra + contatos_top;
+            teste += barra + scroll;
             console.log(teste);
         }
     </script>
