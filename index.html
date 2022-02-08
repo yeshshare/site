@@ -8,6 +8,12 @@
     <link href="assets/fonts/atyp_bl/stylesheet.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
+
 </head>
 
 <body>
@@ -63,7 +69,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
-                        <p class="home_titulo titulo">Juntos,<br> somos todos o Leão!
+                        <p class="home_titulo titulo
+                        ">Juntos,<br> somos todos o Leão!
                         </p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
@@ -588,8 +595,19 @@
     <!--menu-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+        startAnimation();
+        /*var cat = {};
+                                                                                                                cat.nome = "Bianca";
+                                                                                                                cat.sexo = "Feminino";
+                                                                                                                localStorage.setItem('myCat', JSON.stringify(cat));
+                                                                                                                gato = JSON.parse(localStorage.getItem('myCat'));
+                                                                                                                console.log(gato);
+                                                                                                                console.log(gato.nome);
+                                                                                                                console.log(gato.sexo);*/
         //inicia variaveis 
+        AOS.init();
         var nav_open = false;
         var sobre_top, cases_top, clientes_top, contatos_top, scroll = 0;
         //associação de variaveis a elementos do html
@@ -631,6 +649,7 @@
         window.addEventListener("scroll", function(event) {
             closeNav();
             updateElements(); // atualiza os elemento da tela
+            testPosition();
         });
 
         /*
@@ -690,6 +709,10 @@
             valor do topo do elemento 
         */
         function getPosition() {
+            var sobre = document.getElementById("sobre").getBoundingClientRect();
+            var cases = document.getElementById("cases").getBoundingClientRect();
+            var clientes = document.getElementById("clientes").getBoundingClientRect();
+            var contatos = document.getElementById("contatos").getBoundingClientRect();
             sobre_top = parseInt(sobre.top) + this.scrollY;
             cases_top = parseInt(cases.top) + this.scrollY;
             clientes_top = parseInt(clientes.top) + this.scrollY;
@@ -709,25 +732,25 @@
         */
         function updateElements() {
             scroll = this.scrollY;
-            console.log(scroll);
-            console.log(sobre_top + " | " + cases_top + " | " + clientes_top + " | " + contatos_top);
+            //console.log(scroll);
+            //console.log(sobre_top + " | " + cases_top + " | " + clientes_top + " | " + contatos_top);
             let cor, texto, url = "";
             let tamanho = 0;
             scroll = (scroll > 0) ? scroll + 1 : scroll;
             if (scroll < sobre_top) {
                 url = 'assets/imagens/Logo.png';
                 cor = "black";
-                texto = "";
+                texto = "         ";
                 tamanho = 20;
             } else if (scroll > sobre_top && scroll < cases_top) {
                 url = 'assets/imagens/Logo_amarelo.png';
                 cor = "#fcbf00";
-                texto = "/SOBRE";
+                texto = "/SOBRE   ";
                 tamanho = 40;
             } else if (scroll > cases_top && scroll < clientes_top) {
                 url = 'assets/imagens/Logo_preto.png';
                 cor = "black";
-                texto = "/CASES";
+                texto = "/CASES   ";
                 tamanho = 60;
             } else if (scroll > clientes_top && scroll < contatos_top) {
                 url = 'assets/imagens/Logo_amarelo.png';
@@ -737,13 +760,51 @@
             } else if (scroll > contatos_top) {
                 url = 'assets/imagens/Logo.png';
                 cor = "black";
-                texto = "/CONTATO";
+                texto = "/CONTATO ";
                 tamanho = 100;
+                titu
             }
             img.src = url;
             configTag(texto, cor);
             configLine(tamanho, cor);
         }
+
+
+
+        function startAnimation() {
+            addtAnimation(".titulo", "fade-left");
+            addtAnimation("h2", "fade-right");
+            addtAnimation(".yesh_corpo", "fade-right");
+            addtAnimation(".case_titulo", "flip-left");
+            addtAnimation(".case_corpo", "flip-right");
+            addtAnimation(".case_botao", "flip-left");
+            addtAnimation(".case_link", "flip-right");
+            addtAnimation(".div_logo", "flip-right");
+            addtAnimation(".contato_corpo", "flip-right");
+            addtAnimation("#form_fale_conosco", "flip-up");
+            addtAnimation(".wpp_contato_img", "fade-left");
+            addtAnimation(".yesh_contato_logo_rede", "flip-left");
+            addtAnimation(".enviar_botao", "fade-right");
+            addtAnimation("#areas", "flip-up");
+        }
+
+        function addtAnimation(seletor, efeito) {
+            let lista = document.querySelectorAll(seletor);
+            [].forEach.call(lista, (e) => {
+                console.log(e);
+                e.setAttribute("data-aos", efeito);
+                e.setAttribute("data-aos-delay", "50");
+                e.setAttribute("data-aos-duration", "1000");
+            });
+
+        }
+
+
+
+
+
+
+
 
         /*
         função executa uma aditoria nos 
@@ -755,7 +816,8 @@
             teste += barra + cases_top
             teste += barra + clientes_top
             teste += barra + contatos_top;
-            console.log(teste);
+            teste += barra + scroll;
+            //console.log(teste);
         }
     </script>
 </body>
