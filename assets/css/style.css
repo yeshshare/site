@@ -418,7 +418,7 @@ body {
     font-size: 2.8rem;
     padding-bottom: 11px;
     line-height: 3.5rem;
-    s padding-left: 25px;
+    padding-left: 25px;
 }
 
 .contato_título {
@@ -532,4 +532,50 @@ body {
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s;
     /* don't forget to set a duration! */
+}
+
+.tag {
+    min-width: 20%;
+    min-height: 355px;
+    background-size: cover;
+    text-align: center;
+    padding: 3%;
+}
+
+.tag_titulo {
+    font-weight: 400;
+    color: white;
+    font-size: 2.68rem;
+    line-height: 1.2em;
+}
+
+.tag_corpo {
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+}
+
+.logo_yesh {
+    display: block;
+}
+
+.tag_com {
+    background-image: url("../imagens/bg_com.png");
+}
+
+.tag_live {
+    background-image: url("../imagens/bg_live.png");
+}
+
+.tag_camp {
+    background-image: url("../imagens/bg_camp.png");
+}
+
+.tag_play {
+    background-image: url("../imagens/bg_play.png");
+}
+
+.tag_digital {
+    background-image: url("../imagens/bg_digital.png");
 }
