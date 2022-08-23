@@ -216,6 +216,18 @@ body {
     transition: 0.5s;
 }
 
+.overlayCases {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
 .overlay-content {
     position: relative;
     top: 25%;
@@ -372,23 +384,23 @@ body {
 }
 
 .case_1 {
-    background-image: url(../imagens/Case\ 01.png);
+    background-image: url(../imagens/cases/COM.png);
 }
 
 .case_2 {
-    background-image: url(../imagens/Case\ 02.png);
+    background-image: url(../imagens/cases/LIVE.png);
 }
 
 .case_3 {
-    background-image: url(../imagens/Case\ 03.png);
+    background-image: url(../imagens/cases/CAMP.png);
 }
 
 .case_4 {
-    background-image: url(../imagens/Case\ 04.png);
+    background-image: url(../imagens/cases/PLAY.png);
 }
 
 .case_5 {
-    background-image: url(../imagens/Case\ 05.png);
+    background-image: url(../imagens/cases/DIGITAL.png  );
 }
 
 
@@ -418,7 +430,7 @@ body {
     font-size: 2.8rem;
     padding-bottom: 11px;
     line-height: 3.5rem;
-    s padding-left: 25px;
+    padding-left: 25px;
 }
 
 .contato_título {
@@ -532,4 +544,50 @@ body {
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s;
     /* don't forget to set a duration! */
+}
+
+.tag {
+    min-width: 20%;
+    min-height: 355px;
+    background-size: cover;
+    text-align: center;
+    padding: 3%;
+}
+
+.tag_titulo {
+    font-weight: 400;
+    color: white;
+    font-size: 2.68rem;
+    line-height: 1.2em;
+}
+
+.tag_corpo {
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+}
+
+.logo_yesh {
+    display: block;
+}
+
+.tag_com {
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_com.png");
+}
+
+.tag_live {
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_live.png");
+}
+
+.tag_camp {
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_camp.png");
+}
+
+.tag_play {
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_play.png");
+}
+
+.tag_digital {
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_digital.png");
 }

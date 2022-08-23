@@ -4,6 +4,18 @@
 /*.col-md .col-xl .col-md .col-xxl)*/
 
 @media (min-width: 1281px) {
+    .tag_titulo {
+        font-weight: 400;
+        color: white;
+        font-size: 2.68rem;
+        line-height: 1.2em;
+    }
+    .tag_corpo {
+        font-weight: 400;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
     .logo_yesh {
         display: block;
     }
@@ -191,6 +203,11 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+    .tag {
+        min-width: 20%;
+        height: 435px;
+        background-size: cover;
+    }
     .logo_yesh {
         display: block;
     }
@@ -378,6 +395,24 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .tag {
+        min-width: 20%;
+        height: 696px;
+        background-size: cover;
+        padding-top: 22%;
+    }
+    .tag_titulo {
+        font-weight: 400;
+        color: white;
+        font-size: 2.68rem;
+        line-height: 1.2em;
+    }
+    .tag_corpo {
+        font-weight: 400;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
     .logo_yesh {
         display: none;
     }
@@ -562,6 +597,11 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .tag {
+        min-width: 20%;
+        height: 435px;
+        background-size: cover;
+    }
     .logo_yesh {
         display: none;
     }
@@ -746,6 +786,24 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .tag {
+        min-width: 20%;
+        height: 435px;
+        background-size: cover;
+        padding-top: 20%;
+    }
+    .tag_titulo {
+        font-weight: 400;
+        color: white;
+        font-size: 2.68rem;
+        line-height: 1.2em;
+    }
+    .tag_corpo {
+        font-weight: 400;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
     .logo_yesh {
         display: none;
     }
@@ -930,6 +988,24 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .tag {
+        min-width: 20%;
+        height: 355px;
+        background-size: cover;
+        padding-top: 20%;
+    }
+    .tag_titulo {
+        font-weight: 400;
+        color: white;
+        font-size: 2.68rem;
+        line-height: 1.2em;
+    }
+    .tag_corpo {
+        font-weight: 400;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.2em;
+    }
     .logo_yesh {
         display: none;
     }
