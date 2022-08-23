@@ -216,6 +216,18 @@ body {
     transition: 0.5s;
 }
 
+.overlayCases {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
 .overlay-content {
     position: relative;
     top: 25%;
@@ -372,23 +384,23 @@ body {
 }
 
 .case_1 {
-    background-image: url(../imagens/Case\ 01.png);
+    background-image: url(../imagens/cases/COM.png);
 }
 
 .case_2 {
-    background-image: url(../imagens/Case\ 02.png);
+    background-image: url(../imagens/cases/LIVE.png);
 }
 
 .case_3 {
-    background-image: url(../imagens/Case\ 03.png);
+    background-image: url(../imagens/cases/CAMP.png);
 }
 
 .case_4 {
-    background-image: url(../imagens/Case\ 04.png);
+    background-image: url(../imagens/cases/PLAY.png);
 }
 
 .case_5 {
-    background-image: url(../imagens/Case\ 05.png);
+    background-image: url(../imagens/cases/DIGITAL.png  );
 }
 
 
@@ -561,21 +573,21 @@ body {
 }
 
 .tag_com {
-    background-image: url("../imagens/bg_com.png");
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_com.png");
 }
 
 .tag_live {
-    background-image: url("../imagens/bg_live.png");
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_live.png");
 }
 
 .tag_camp {
-    background-image: url("../imagens/bg_camp.png");
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_camp.png");
 }
 
 .tag_play {
-    background-image: url("../imagens/bg_play.png");
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_play.png");
 }
 
 .tag_digital {
-    background-image: url("../imagens/bg_digital.png");
+    background-image: url("../imagens/cases/Cases_1980x1080_banner-desktop_v1_digital.png");
 }
