@@ -8,12 +8,8 @@
     <link href="assets/fonts/atyp_bl/stylesheet.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
-
 </head>
 
 <body>
@@ -21,7 +17,6 @@
     <section>
         <nav class="navbar fixed-top yesh_navbar" style="z-index: 98;">
             <div class="container-fluid">
-
                 <div class="d-flex justify-content-start">
                     <h3 id="label_sesion" style="color: firebrick;"></h3>
                 </div>
@@ -33,11 +28,8 @@
                     <div class="row">
                         <div class="col">
                             <img id="logo" src="assets/imagens/Logo.png" class="logo_yesh" alt="">
-
                         </div>
-
                     </div>
-
                 </div>
                 <div class="d-flex justify-content-end">
                     <div class="row">
@@ -48,11 +40,8 @@
                                 <div class="bar3"></div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </nav>
         <div>
@@ -108,7 +97,7 @@
                 </div>
             </div>
         </header>
-        <header class="masthead complete sobre_1">
+        <!--<header class="masthead complete sobre_1">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
@@ -118,7 +107,7 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header>-->
         <header class="masthead semi case">
             <div></div>
             <div class="container">
@@ -128,12 +117,10 @@
                     </div>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
                                 <h2>
-                                    <p class="yesh_corpo">Entregar soluções de comunicação que sejam coerentes, inovadoras e eficazes para o seu negócio</p>
-                                    <p class="yesh_corpo">é o maior propósito da Yesh.</p>
-                                    <p class="yesh_corpo">Todos os projetos são desenvolvidos de forma personalizada, pensando nas suas necessidades e de</p>
-                                    <p class="yesh_corpo">cada público-alvo do seu negócio.</p>
+                                    <p class="yesh_corpo">Entregar soluções de comunicação que sejam coerentes, inovadoras e eficazes para o seu negócio é o maior propósito da Yesh.</p>
+                                    <p class="yesh_corpo">Todos os projetos são desenvolvidos de forma personalizada, pensando nas suas necessidades e decada público-alvo do seu negócio.</p>
                                     <br>
                                     <p class="yesh_corpo">Conheça nossas frentes de atuação:</p>
                                 </h2>
@@ -147,9 +134,9 @@
             <div></div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_com">
+                    <div id="case_com" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_com">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">Com</p>
+                            <p class="tag_titulo">COM</p>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <p class="tag_corpo">COMUNICAÇÃO</p>
@@ -157,51 +144,51 @@
                             <br>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_com" href="#case_com"><button class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                            <a id="btn_com" onclick="_openCases('com')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_live">
+                    <div id="case_live" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_live">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">Live</p>
+                            <p class="tag_titulo">LIVE</p>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <p class="tag_corpo">EVENTOS PRESENCIAIS</p>
-                            <p class="tag_corpo">E ONLINES</p>
+                            <p class="tag_corpo">E ONLINE</p>
                             <br>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_live" href="#case_live"><button  class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                            <a id="btn_live" onclick="_openCases('live')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_camp">
+                    <div id="case_camp" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_camp">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">Camp</p>
+                            <p class="tag_titulo">CAMP</p>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <p class="tag_corpo">CONSULTORIA EM</p>
-                            <p class="tag_corpo">INTEGRADA</p>
+                            <p class="tag_corpo">TREINAMENTOS</p>
                             <br>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_camp" href="#case_camp"><button  class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                            <a id="btn_camp" onclick="_openCases('camp')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_play">
+                    <div id="case_play" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_play">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">Play</p>
+                            <p class="tag_titulo">PLAY</p>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <p class="tag_corpo">SOLUÇÕES</p>
-                            <p class="tag_corpo">AUDIVISUAIS</p>
+                            <p class="tag_corpo">AUDIOVISUAIS</p>
                             <br>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_play" href="#case_play"><button  class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                            <a id="btn_play" onclick="_openCases('play')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_digital">
+                    <div id="case_digital" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_digital">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">Digital</p>
+                            <p class="tag_titulo">DIGITAL</p>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <p class="tag_corpo">SOLUÇÕES</p>
@@ -209,7 +196,7 @@
                             <br>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_digital" href="#case_digital"><button  class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                            <a id="btn_digital" onclick="_openCases('digital')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                         </div>
                     </div>
 
@@ -218,7 +205,7 @@
         </header>
     </section>
     <!--sobre-->
-    <!--cases-->
+    <!--cases
     <section id="cases">
         <header class="masthead semi case">
             <div></div>
@@ -258,12 +245,12 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-6"></div>
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-2">
-                        <a onclick="_openCases('com')"><button class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                        <a onclick="_openCases('com')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                     </div>
                     <!-- <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                         <p class="case_link">VEJA MAIS CASES <br>DE YESH COM <img src="assets/imagens/seta.png" alt=""></p>
                     </div>
-                    -->
+                    
                 </div>
             </div>
         </header>
@@ -286,11 +273,11 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-6"></div>
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-2">
-                        <a onclick="_openCases('live')"><button class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                        <a onclick="_openCases('live')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                     </div>
                     <!--<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                         <p class="case_link">VEJA MAIS CASES <br>DE YESH LIVE <img src="assets/imagens/seta.png" alt=""></p>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </header>
@@ -313,11 +300,11 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-6"></div>
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-2">
-                        <a onclick="_openCases('camp')"><button class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                        <a onclick="_openCases('camp')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                     </div>
                     <!--<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                         <p class="case_link">VEJA MAIS CASES <br>DE YESH CAMP <img src="assets/imagens/seta.png" alt=""></p>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </header>
@@ -340,11 +327,11 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-6"></div>
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-2">
-                        <a onclick="_openCases('play')"><button class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                        <a onclick="_openCases('play')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                     </div>
                     <!--<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                         <p class="case_link">VEJA MAIS CASES <br>DE YESH PLAY <img src="assets/imagens/seta.png" alt=""></p>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </header>
@@ -367,11 +354,11 @@
                 <div class="row">
                     <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-6"></div>
                     <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-2">
-                        <a onclick="_openCases('digital')"><button class="btn btn-outline-light case_botao" > Veja o Case</button > </a>
+                        <a onclick="_openCases('digital')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                     </div>
                     <!--<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-3">
                         <p class="case_link">VEJA MAIS CASES <br>DE YESH DIGITAL&nbsp;<img src="assets/imagens/seta.png" alt=""></p>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </header>
@@ -405,7 +392,6 @@
                                         <option value="Varejo">Varejo</option>                    
                                     </select><br><br>
                                 </div>
-
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                     <div>
                                         <div class="row linha_cliente">
@@ -501,7 +487,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -529,7 +514,9 @@
                                 </div>
                             </div>
                             <div class="col-12 col-sm-10 col-md-12 col-lg-12 col-xl-10">
-                                <p class="contato_corpo">Rua Aurélio Lago, 44<br> Bom Clima - Guarulhos/SP<br></p>
+                                <a href="mailto:eaibele@yesh.com.br" target="_blank" style="text-decoration: none;">
+                                    <p class="contato_corpo">eaibele@yesh.com.br</p>
+                                </a>
                             </div>
                         </div>
                         <div class="row">
@@ -539,17 +526,25 @@
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
-                                <p class="contato_corpo">11 4574-4004</p>
+                                <a href="tel:+551145744004" style="text-decoration: none;">
+                                    <p class="contato_corpo">11 4574-4004</p>
+                                </a>
                             </div>
                         </div>
                         <div class="row contato_rede_logo">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 div_wpp">
-                                <img class="wpp_contato_img" src="assets/imagens/botão_wpp.svg" alt="">
+                                <a href="https://wa.me/5511980400188" target="_blank">
+                                    <img class="wpp_contato_img" src="assets/imagens/botão_wpp.svg" alt="">
+                                </a>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 div_redes_sociais ">
-                                <img class="yesh_contato_logo_rede" src="assets/imagens/instagram.svg" alt="">
+                                <a href="https://www.instagram.com/yesh.br/" target="_blank">
+                                    <img class="yesh_contato_logo_rede" src="assets/imagens/instagram.svg" alt="">
+                                </a>
                                 <img class="yesh_contato_logo_rede" src="assets/imagens/facebook.svg" alt="">
-                                <img class="yesh_contato_logo_rede" src="assets/imagens/linkedin.svg" alt="">
+                                <a href="https://www.linkedin.com/company/yesh/" target="_blank">
+                                    <img class="yesh_contato_logo_rede" src="assets/imagens/linkedin.svg" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -557,7 +552,7 @@
                         <div class="row" id="form_fale_conosco">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
                                 <select class="form-select campo">
-                                    <option selected>Escolha o departamento</option>
+                                    <option selected>Com qual área você quer falar?</option>
                                     <option>Yesh Camp</option>
                                     <option>Yesh Com</option>
                                     <option>Yesh Digital</option>
@@ -566,10 +561,10 @@
                                 </select><br><br>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
-                                <input type="email" class="form-control campo" id="email" placeholder="Insira o email*" name="email" required><br><br>
+                                <input type="email" class="form-control campo" id="email" placeholder="Insira seu email*" name="email" required><br><br>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
-                                <input type="text" class="form-control campo" id="nome" placeholder="Insira o nome completo" name="nome">
+                                <input type="text" class="form-control campo" id="nome" placeholder="Insira seu nome completo e empresa" name="nome">
                                 <br><br>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
@@ -592,18 +587,18 @@
             <!--Header menu-->
             <div class="card-header">
                 <div id="nav_header">
-                    <!--<div class="d-flex justify-content-end">...</div>
+                    <!--
+                <div class="d-flex justify-content-end">...</div>
                 <div class="d-flex justify-content-center">...</div>
                 <div class="d-flex justify-content-between">...</div>
-                <div class="d-flex justify-content-around">...</div>-->
+                <div class="d-flex justify-content-around">...</div>
+                -->
                     <div class="container-fluid">
-
                         <div class="row yesh_menu_iten">
                             <div class="col-8 col-sm-8 col-md-8 col-lg-10 col-xl-10">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-1">
-
                                         </div>
                                         <div class="col-11">
                                             <div class="row">
@@ -622,9 +617,7 @@
                                                 <div class="col-1">
                                                     <h5>/DIGITAL</h5>
                                                 </div>
-
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -652,7 +645,7 @@
             <div class="card-body">
                 <div id="nav_body" class="overlay-content">
                     <a class="yesh_a" href="#sobre"><b>Sobre</b></a>
-                    <a class="yesh_a" href="#cases"><b>Cases</b></a>
+                    <!--<a class="yesh_a" href="#cases"><b>Cases</b></a>-->
                     <a class="yesh_a" href="#clientes"><b>Clientes</b></a>
                     <a class="yesh_a" href="#contatos"><b>Contato</b></a>
                 </div>
@@ -703,21 +696,17 @@
                     <div class="d-flex justify-content-between">...</div>
                     <div class="d-flex justify-content-around">...</div>-->
                     <div class="container-fluid">
-
                         <div class="row yesh_menu_iten">
                             <div class="col-8 col-sm-8 col-md-8 col-lg-10 col-xl-10">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-1">
-
-                                        </div>
+                                        <div class="col-1"></div>
                                         <div class="col-11">
                                             <div class="row">
                                                 <div class="col-1">
                                                     <h5 id="tag_secao_case">/COM/CASE</h5>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -733,8 +722,8 @@
                                                 color: black;
                                                 font-size: 28px;
                                                 text-decoration: none;
-                                                " href="javascript:void(0)" onclick="_closeCases()">&#10005;</a>
-
+                                                " href="javascript:void(0)" onclick="_closeCases()">&#10005;
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -770,7 +759,6 @@
                                         Campanha de mídia online para aumentar a presença dos Geradores Cummins e visibilidade da marca Cummins no mercado, além de captar novos leads através de conteúdos sobre os diferenciais da área de negócio.
                                     </text>
                                 </p>
-
                             </div>
                             <div id="bloco4" class="borda col-12 col-sm-6 ">
                                 <img id="bloco_img3" src="assets/imagens/com/Com03.png" style="width: 100%; height: 100%;">
@@ -795,7 +783,6 @@
                                     para repassar ao comercial três vezes por semana.
                                     <br><br>
                                 </div>
-
                             </div>
                             <br>
                             <div id="bloco6" class="borda col-12 col-sm-6 ">
@@ -807,10 +794,8 @@
                             </div>
                         </div>
                     </div>
-
                     <!--body menu-->
                 </div>
-
             </div>
             <!-- COM -->
     </section>
@@ -821,16 +806,7 @@
     <script src="assets/data/cases.js"></script>
     <script>
         startAnimation();
-        /*var cat = {};
-                                                                                                                cat.nome = "Bianca";
-                                                                                                                cat.sexo = "Feminino";
-                                                                                                                localStorage.setItem('myCat', JSON.stringify(cat));
-                                                                                                                gato = JSON.parse(localStorage.getItem('myCat'));
-                                                                                                                console.log(gato);
-                                                                                                                console.log(gato.nome);
-                                                                                                                console.log(gato.sexo);*/
         //inicia variaveis 
-
         AOS.init();
         var nav_open = false;
         var sobre_top, cases_top, clientes_top, contatos_top, scroll = 0;
@@ -849,7 +825,7 @@
         sua posição relativa ao viewport para uma detrminada variavel
         */
         var sobre = document.getElementById("sobre").getBoundingClientRect();
-        var cases = document.getElementById("cases").getBoundingClientRect();
+        //var cases = document.getElementById("cases").getBoundingClientRect();
         var clientes = document.getElementById("clientes").getBoundingClientRect();
         var contatos = document.getElementById("contatos").getBoundingClientRect();
         getPosition(); //chama função parar recuperar o posicionamento das seções 
@@ -937,11 +913,11 @@
         */
         function getPosition() {
             var sobre = document.getElementById("sobre").getBoundingClientRect();
-            var cases = document.getElementById("cases").getBoundingClientRect();
+            //var cases = document.getElementById("cases").getBoundingClientRect();
             var clientes = document.getElementById("clientes").getBoundingClientRect();
             var contatos = document.getElementById("contatos").getBoundingClientRect();
             sobre_top = parseInt(sobre.top) + this.scrollY;
-            cases_top = parseInt(cases.top) + this.scrollY;
+            //cases_top = parseInt(cases.top) + this.scrollY;
             clientes_top = parseInt(clientes.top) + this.scrollY;
             contatos_top = parseInt(contatos.top) + this.scrollY;
             //stestPosition();
@@ -969,29 +945,20 @@
                 if (secao_atual != "home") {
                     executeAlteracao = true;
                     secao_atual = "home"
-                    console.log("altera");
+                        //console.log("altera");
                     url = 'assets/imagens/Logo.png';
                     cor = "black";
                     texto = "         ";
-                    tamanho = 20;
+                    tamanho = 25;
                 }
-            } else if (scroll > sobre_top && scroll < cases_top) {
+            } else if (scroll > sobre_top && scroll < clientes_top) {
                 if (secao_atual != "sobre") {
                     executeAlteracao = true;
                     secao_atual = "sobre"
                     url = 'assets/imagens/Logo_amarelo.png';
                     cor = "#fcbf00";
                     texto = "/SOBRE   ";
-                    tamanho = 40;
-                }
-            } else if (scroll > cases_top && scroll < clientes_top) {
-                if (secao_atual != "cases") {
-                    executeAlteracao = true;
-                    secao_atual = "cases"
-                    url = 'assets/imagens/Logo_preto.png';
-                    cor = "black";
-                    texto = "/CASES   ";
-                    tamanho = 60;
+                    tamanho = 50;
                 }
             } else if (scroll > clientes_top && scroll < contatos_top) {
                 if (secao_atual != "clientes") {
@@ -1000,7 +967,7 @@
                     url = 'assets/imagens/Logo_amarelo.png';
                     cor = "#fcbf00";
                     texto = "/CLIENTES";
-                    tamanho = 80;
+                    tamanho = 75;
                 }
             } else if (scroll > contatos_top) {
                 if (secao_atual != "contato") {
@@ -1014,7 +981,7 @@
             }
             if (executeAlteracao) {
                 fadeOut("logo", 1).then((x) => {
-                    console.log(x)
+                    //console.log(x)
                     if (x) {
                         img.src = url;
                         fadeIn("logo", 1);
@@ -1107,6 +1074,7 @@
         }
 
         function _openCases(x) {
+            limparCases();
             case_atual = x;
             document.getElementById("body_case").style.width = "100%";
             let d = document.getElementById("Header");
@@ -1154,8 +1122,8 @@
                     color = "#0078AD"
                     exibe_bloco(3, 2, true);
                     exibe_bloco(4, 2, true);
-                    exibe_bloco(5, 2, true);
-                    exibe_bloco(6, 2, true);
+                    exibe_bloco(5, 1, true);
+                    exibe_bloco(6, 2, false);
                     exibe_bloco(7, 2, false);
                     exibe_img_bloco(x, 3);
                     break;
@@ -1170,7 +1138,6 @@
             document.getElementById('tag_logo_secao_case').style.color = "white";
             document.getElementById('tag_x_secao_case').style.color = "white";
             document.getElementById('tag_secao_case').innerText = `/${x.toUpperCase()}/CASE`;
-
             //console.log(d);
         }
 
@@ -1196,9 +1163,22 @@
         function exibe_img_bloco(bloco, quantidade) {
             for (let index = 1; index <= quantidade; index++) {
                 let element = document.getElementById(`bloco_img${index}`);
-                console.log(element);
-                element.src = `assets/imagens/${bloco}/${bloco}0${index}.png`
+                //console.log(element);
+                let caminhoImagem = `assets/imagens/${bloco}/${bloco}0${index}.png`;
+                element.setAttribute('src', caminhoImagem);
             }
+        }
+
+        function limparCases() {
+            for (let index = 1; index <= 5; index++) {
+                let element = document.getElementById(`bloco_img${index}`);
+                //console.log(element);
+                element.setAttribute('src', '');
+            }
+            document.getElementById("titleCase").innerText = "";
+            document.getElementById("subtitleCase").innerText = "";
+            let topicos = document.getElementById("topicosCase");
+            topicos.innerHTML = "";
         }
 
 
@@ -1213,7 +1193,6 @@
                 } else {
                     if (bloco.classList.contains('col-sm-12')) {
                         bloco.classList.remove('col-sm-12');
-
                     }
                     bloco.classList.add('col-sm-6');
                 }
@@ -1221,7 +1200,6 @@
             } else {
                 bloco.style.display = "none";
             }
-
         }
 
         function _closeCases() {
@@ -1229,8 +1207,9 @@
             //let d = document.getElementById("Header_" + x);
             let d = document.getElementById("Header");
             d.style.display = "none";
-            //console.log(d);
-            document.getElementById(`btn_${case_atual}`).click();
+            console.log(`#cases_${case_atual}`);
+            //document.getElementById(`btn_${case_atual}`).click();
+            window.location = `#cases_${case_atual}`;
         }
 
         async function fadeOut(id, time) {

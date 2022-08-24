@@ -287,7 +287,8 @@ body {
 /*estilo da home */
 
 .home {
-    background-image: url(../imagens/BG.png);
+    /*background-image: url(../imagens/BG.png);*/
+    background-color: #fcbf00;
     padding-left: 10%;
 }
 
