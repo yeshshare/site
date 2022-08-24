@@ -762,11 +762,11 @@
                                 line-height: 50px;
                                 font-size: 20px;">
                                 <p>
-                                    <h1>Geradores Cummins</h1>
+                                    <h1 id="titleCase">Geradores Cummins</h1>
                                 </p>
                                 <br>
                                 <p>
-                                    <text>
+                                    <text id="subtitleCase">
                                         Campanha de mídia online para aumentar a presença dos Geradores Cummins e visibilidade da marca Cummins no mercado, além de captar novos leads através de conteúdos sobre os diferenciais da área de negócio.
                                     </text>
                                 </p>
@@ -783,10 +783,10 @@
                                         <h1>Solução</h1>
                                     </p>
                                 </div>
-                                <div style="text-align: initial;
+                                <div id="topicosCase" style="text-align: initial;
                                     text-align: initial;
                                     padding: 0 110px 0 110px;
-                                    line-height: 20px;
+                                    line-height: 20px; 
                                 ">
                                     <br> - Deﬁnição de mensagem e conceito baseado na presença constante da Cummins na sociedade, agindo para que o mundo não pare mesmo em situação pandêmica, trazendo seus produtos para auxiliar no combate à Covid-19.
                                     <br><br> - Deﬁnição de key visual e aplicações para os diferentes públicos da campanha: interno, varejo, indústria e saúde.
@@ -818,6 +818,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/data/cases.js"></script>
     <script>
         startAnimation();
         /*var cat = {};
@@ -829,6 +830,7 @@
                                                                                                                 console.log(gato.nome);
                                                                                                                 console.log(gato.sexo);*/
         //inicia variaveis 
+
         AOS.init();
         var nav_open = false;
         var sobre_top, cases_top, clientes_top, contatos_top, scroll = 0;
@@ -1020,9 +1022,6 @@
                         configLine(tamanho, cor);
                     }
                 });
-
-
-
             }
         }
 
@@ -1113,6 +1112,7 @@
             let d = document.getElementById("Header");
             d.style.display = "block";
             let color = ""
+            atualizaTextoCase(getTextCases(x));
             switch (x) {
                 case "com": //c81a1e
                     color = "#FCBF00"
@@ -1120,7 +1120,7 @@
                     exibe_bloco(4, 2, true); //imagem
                     exibe_bloco(5, 1, true); // texto
                     exibe_bloco(6, 2, true); //imagem
-                    exibe_bloco(7, 2, true); //imagem
+                    exibe_bloco(7, 2, true); //imagem                    
                     exibe_img_bloco(x, 5);
                     break;
                 case "live": //
@@ -1174,11 +1174,29 @@
             //console.log(d);
         }
 
+        function atualizaTextoCase(textoCase) {
+            document.getElementById("titleCase").innerText = textoCase.title;
+            document.getElementById("subtitleCase").innerText = textoCase.subtitle;
+            let topicos = document.getElementById("topicosCase");
+            topicos.innerHTML = "";
+            let htmlCase = ""
+            textoCase.frases.forEach(function(topico, index) {
+                if (index == 0) {
+                    htmlCase += `<br>${topico.texto}`;
+                } else {
+                    htmlCase += `<br><br>${topico.texto}`;
+                }
+            });
+            htmlCase += "<br><br>";
+            topicos.innerHTML = htmlCase;
+        }
+
+
 
         function exibe_img_bloco(bloco, quantidade) {
             for (let index = 1; index <= quantidade; index++) {
                 let element = document.getElementById(`bloco_img${index}`);
-                console.log(element);
+                //console.log(element);
                 element.src = `assets/imagens/${bloco}/${bloco}0${index}.png`
             }
         }
