@@ -131,6 +131,11 @@
             </div>
         </header>
         <header class="masthead">
+            <a id="btn_com" href="#case_com" hidden></a>
+            <a id="btn_live" href="#case_live" hidden></a>
+            <a id="btn_camp" href="#case_camp" hidden></a>
+            <a id="btn_play" href="#case_play" hidden></a>
+            <a id="btn_digital" href="#case_digital" hidden></a>
             <div></div>
             <div class="container-fluid">
                 <div class="row">
@@ -144,7 +149,7 @@
                             <br>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_com" onclick="_openCases('com')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
+                            <a onclick="_openCases('com')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
                         </div>
                     </div>
                     <div id="case_live" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_live">
@@ -1207,9 +1212,7 @@
             //let d = document.getElementById("Header_" + x);
             let d = document.getElementById("Header");
             d.style.display = "none";
-            console.log(`#cases_${case_atual}`);
-            //document.getElementById(`btn_${case_atual}`).click();
-            window.location = `#cases_${case_atual}`;
+            document.getElementById(`btn_${case_atual}`).click();
         }
 
         async function fadeOut(id, time) {
