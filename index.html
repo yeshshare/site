@@ -1143,11 +1143,11 @@
                     break;
                 case "play": //
                     color = "#E94480"
-                    exibe_bloco(3, 1, true);
-                    exibe_bloco(4, 1, false);
-                    exibe_bloco(5, 1, true);
+                    exibe_bloco(3, 2, true);
+                    exibe_bloco(4, 2, true);
+                    exibe_bloco(5, 2, true);
                     exibe_bloco(6, 2, true);
-                    exibe_bloco(7, 2, true);
+                    exibe_bloco(7, 2, false);
                     exibe_img_bloco(x, 4);
                     break;
                 case "digital": //
@@ -1196,7 +1196,7 @@
         function exibe_img_bloco(bloco, quantidade) {
             for (let index = 1; index <= quantidade; index++) {
                 let element = document.getElementById(`bloco_img${index}`);
-                //console.log(element);
+                console.log(element);
                 element.src = `assets/imagens/${bloco}/${bloco}0${index}.png`
             }
         }
