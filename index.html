@@ -17,7 +17,7 @@
     <section>
         <nav class="navbar fixed-top yesh_navbar" style="z-index: 98;">
             <div class="container-fluid">
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-start" style="max-width:100px;">
                     <h3 id="label_sesion" style="color: firebrick;"></h3>
                 </div>
                 <!--<div class="d-flex justify-content-end">...</div>
@@ -137,74 +137,107 @@
             <a id="btn_play" href="#case_play" hidden></a>
             <a id="btn_digital" href="#case_digital" hidden></a>
             <div></div>
+            <style>
+                .casesCol {
+                    min-width: 20%;
+                    min-height: 300px;
+                    text-align: center;
+                    padding-top: 66px;
+                    background-size: cover;
+                }
+                
+                .casesTitle {
+                    font-size: 2.5em;
+                }
+                
+                .casesSubTitle {
+                    font-size: 1em;
+                    line-height: 1.9;
+                }
+                
+                .caseButton {
+                    margin-top: 5%;
+                    border-width: 2px;
+                    border-radius: 40px;
+                }
+            </style>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="case_com" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_com">
+                    <div id="case_com" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 casesCol tag_com">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">COM</p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_corpo">COMUNICAÇÃO</p>
-                            <p class="tag_corpo">INTEGRADA</p>
+                            <label class="casesTitle">
+                                COM
+                            </label>
                             <br>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a onclick="_openCases('com')"><button class="btn btn-outline-light case_botao" > Veja um case</button > </a>
+                            <label class="casesSubTitle">
+                                COMUNICAÇÃO
+                                <br>
+                                INTEGRADA
+                            </label>
+                            <br>
+                            <a onclick="_openCases('com')"><button class="btn btn-outline-light caseButton" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div id="case_live" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_live">
+                    <div id="case_live" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 casesCol tag_live">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">LIVE</p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_corpo">EVENTOS PRESENCIAIS</p>
-                            <p class="tag_corpo">E ONLINE</p>
+                            <label class="casesTitle">
+                                LIVE
+                            </label>
                             <br>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_live" onclick="_openCases('live')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
+                            <label class="casesSubTitle">
+                                EVENTOS PRESENCIAIS
+                                <br>
+                                E ONLINE
+                            </label>
+                            <br>
+                            <a onclick="_openCases('live')"><button class="btn btn-outline-light caseButton" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div id="case_camp" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_camp">
+                    <div id="case_camp" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 casesCol tag_camp">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">CAMP</p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_corpo">CONSULTORIA EM</p>
-                            <p class="tag_corpo">TREINAMENTOS</p>
+                            <label class="casesTitle">
+                                CAMP
+                            </label>
                             <br>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_camp" onclick="_openCases('camp')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
+                            <label class="casesSubTitle">
+                                CONSULTORIA EM
+                                <br>
+                                TREINAMENTOS
+                            </label>
+                            <br>
+                            <a onclick="_openCases('camp')"><button class="btn btn-outline-light caseButton" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div id="case_play" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_play">
+                    <div id="case_play" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 casesCol tag_play">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">PLAY</p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_corpo">SOLUÇÕES</p>
-                            <p class="tag_corpo">AUDIOVISUAIS</p>
+                            <label class="casesTitle">
+                                PLAY
+                            </label>
                             <br>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_play" onclick="_openCases('play')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
+                            <label class="casesSubTitle">
+                                SOLUÇÕES
+                                <br>
+                                AUDIOVISUAIS
+                            </label>
+                            <br>
+                            <a onclick="_openCases('play')"><button class="btn btn-outline-light caseButton" > Veja um case</button > </a>
                         </div>
                     </div>
-                    <div id="case_digital" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 tag tag_digital">
+                    <div id="case_digital" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 casesCol tag_digital">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_titulo">DIGITAL</p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <p class="tag_corpo">SOLUÇÕES</p>
-                            <p class="tag_corpo">DIGITAIS</p>
+                            <label class="casesTitle">
+                                DIGITAL
+                            </label>
                             <br>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="btn_digital" onclick="_openCases('digital')"><button  class="btn btn-outline-light case_botao" > Veja um case</button > </a>
+                            <label class="casesSubTitle">
+                                SOLUÇÕES
+                                <br>
+                                DIGITAIS
+                            </label>
+                            <br>
+                            <a onclick="_openCases('digital')"><button class="btn btn-outline-light caseButton" > Veja um case</button > </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </header>
@@ -383,7 +416,7 @@
                                     <p class="yesh_corpo">
                                         Conheça quem faz parte da nossa história.
                                     </p>
-                                    s<select class="form-control" name="areas" id="areas">
+                                    <!--<select class="form-control" name="areas" id="areas">
                                         <option value="0"> 
                                             TODAS AS ARÉAS QUE JÁ ATENDEMOS
                                         </option>
@@ -395,7 +428,7 @@
                                         <option value="Entretenimento">Entretenimento</option>
                                         <option value="Saúde">Saúde</option>
                                         <option value="Varejo">Varejo</option>                    
-                                    </select><br><br>
+                                    </select><br><br>-->
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                     <div>
@@ -538,16 +571,16 @@
                         </div>
                         <div class="row contato_rede_logo">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 div_wpp">
-                                <a href="https://wa.me/5511980400188" target="_blank">
+                                <a href="https://wa.me/5511980400188" target="_blank" style="text-decoration: none; ">
                                     <img class="wpp_contato_img" src="assets/imagens/botão_wpp.svg" alt="">
                                 </a>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 div_redes_sociais ">
-                                <a href="https://www.instagram.com/yesh.br/" target="_blank">
+                                <a href="https://www.instagram.com/yesh.br/" target="_blank" style="text-decoration: none;">
                                     <img class="yesh_contato_logo_rede" src="assets/imagens/instagram.svg" alt="">
                                 </a>
                                 <img class="yesh_contato_logo_rede" src="assets/imagens/facebook.svg" alt="">
-                                <a href="https://www.linkedin.com/company/yesh/" target="_blank">
+                                <a href="https://www.linkedin.com/company/yesh/" target="_blank" style="text-decoration: none;">
                                     <img class="yesh_contato_logo_rede" src="assets/imagens/linkedin.svg" alt="">
                                 </a>
                             </div>
@@ -945,7 +978,9 @@
             //console.log(sobre_top + " | " + cases_top + " | " + clientes_top + " | " + contatos_top);
             let cor, texto, url = "";
             let tamanho = 0;
+            let atualizarLogo = false;
             scroll = (scroll > 0) ? scroll + 1 : scroll;
+            console.log(secao_atual);
             if (scroll < sobre_top) {
                 if (secao_atual != "home") {
                     executeAlteracao = true;
@@ -955,24 +990,29 @@
                     cor = "black";
                     texto = "         ";
                     tamanho = 25;
+                    atualizarLogo = true;
                 }
             } else if (scroll > sobre_top && scroll < clientes_top) {
                 if (secao_atual != "sobre") {
                     executeAlteracao = true;
+                    atualizarLogo = (secao_atual != "clientes") ? true : false;
                     secao_atual = "sobre"
                     url = 'assets/imagens/Logo_amarelo.png';
                     cor = "#fcbf00";
                     texto = "/SOBRE   ";
                     tamanho = 50;
+
                 }
             } else if (scroll > clientes_top && scroll < contatos_top) {
                 if (secao_atual != "clientes") {
                     executeAlteracao = true;
+                    atualizarLogo = (secao_atual != "sobre") ? true : false;
                     secao_atual = "clientes"
                     url = 'assets/imagens/Logo_amarelo.png';
                     cor = "#fcbf00";
                     texto = "/CLIENTES";
                     tamanho = 75;
+
                 }
             } else if (scroll > contatos_top) {
                 if (secao_atual != "contato") {
@@ -982,18 +1022,25 @@
                     cor = "black";
                     texto = "/CONTATO ";
                     tamanho = 100;
+                    atualizarLogo = true;
                 }
             }
             if (executeAlteracao) {
-                fadeOut("logo", 1).then((x) => {
-                    //console.log(x)
-                    if (x) {
-                        img.src = url;
-                        fadeIn("logo", 1);
-                        configTag(texto, cor);
-                        configLine(tamanho, cor);
-                    }
-                });
+                console.log(`atualizarLogo : ${atualizarLogo}`)
+                if (atualizarLogo) {
+                    fadeOut("logo", 1).then((x) => {
+                        //console.log(x)
+                        if (x) {
+                            img.src = url;
+                            fadeIn("logo", 1);
+                            configTag(texto, cor);
+                            configLine(tamanho, cor);
+                        }
+                    });
+                } else {
+                    configTag(texto, cor);
+                    configLine(tamanho, cor);
+                }
             }
         }
 
@@ -1005,8 +1052,9 @@
             addtAnimation(".yesh_corpo", "fade-right");
             addtAnimation(".case_titulo", "flip-left");
             addtAnimation(".case_corpo", "flip-right");
-            addtAnimation(".tag_titulo", "flip-left");
-            addtAnimation(".tag_corpo", "flip-right");
+            addtAnimation(".casesTitle", "flip-left");
+            addtAnimation(".casesSubTitle", "flip-left");
+            addtAnimation(".caseButton", "flip-right");
             addtAnimation(".case_botao", "flip-left");
             addtAnimation(".case_link", "flip-right");
             addtAnimation(".div_logo", "flip-right");
@@ -1041,22 +1089,23 @@
                 } else {
                     clearInterval(fadeEffect);
                 }
-            }, 200);
+            }, 100);
             return true;
         }
 
         async function fadeInEffect(id) {
             var fadeTarget = document.getElementById(id);
             var fadeEffect = setInterval(function() {
-                if (fadeTarget.style.opacity > 0) {
-                    fadeTarget.style.opacity -= 0.1;
-                }
                 if (!fadeTarget.style.opacity) {
-                    fadeTarget.style.opacity = 1;
+                    fadeTarget.style.opacity = 0;
+                }
+                if (fadeTarget.style.opacity < 1) {
+                    fadeTarget.style.opacity += 0.1;
                 } else {
+                    fadeTarget.style.opacity = 1;
                     clearInterval(fadeEffect);
                 }
-            }, 200);
+            }, 100);
             return true;
         }
 
@@ -1071,7 +1120,7 @@
         function testPosition() {
             let barra = " | ";
             let teste = sobre_top
-            teste += barra + cases_top
+                //teste += barra + cases_top
             teste += barra + clientes_top
             teste += barra + contatos_top;
             teste += barra + scroll;
@@ -1084,11 +1133,13 @@
             document.getElementById("body_case").style.width = "100%";
             let d = document.getElementById("Header");
             d.style.display = "block";
-            let color = ""
+            let color = "";
+            let colorBody = ""
             atualizaTextoCase(getTextCases(x));
             switch (x) {
                 case "com": //c81a1e
-                    color = "#FCBF00"
+                    color = "#FCBF00";
+                    colorBody = "#f66300";
                     exibe_bloco(3, 2, true); // texto
                     exibe_bloco(4, 2, true); //imagem
                     exibe_bloco(5, 1, true); // texto
@@ -1098,6 +1149,7 @@
                     break;
                 case "live": //
                     color = "#CD484A"
+                    colorBody = "#c4191d";
                     exibe_bloco(3, 1, true);
                     exibe_bloco(4, 1, false);
                     exibe_bloco(5, 1, true);
@@ -1106,7 +1158,8 @@
                     exibe_img_bloco(x, 2);
                     break;
                 case "camp": //
-                    color = "#82d26a"
+                    color = "#9ad169"
+                    colorBody = "#28a50d";
                     exibe_bloco(3, 1, true);
                     exibe_bloco(4, 1, false);
                     exibe_bloco(5, 1, true);
@@ -1116,6 +1169,7 @@
                     break;
                 case "play": //
                     color = "#E94480"
+                    colorBody = "#cc1c5a";
                     exibe_bloco(3, 2, true);
                     exibe_bloco(4, 2, true);
                     exibe_bloco(5, 2, true);
@@ -1125,6 +1179,7 @@
                     break;
                 case "digital": //
                     color = "#0078AD"
+                    colorBody = "#005d96";
                     exibe_bloco(3, 2, true);
                     exibe_bloco(4, 2, true);
                     exibe_bloco(5, 1, true);
@@ -1137,7 +1192,8 @@
             }
             d.style.backgroundColor = color;
             document.getElementById('bady_case').style.color = "white";
-            document.getElementById('bady_case').style.backgroundColor = color;
+            document.getElementById('bady_case').style.backgroundColor = colorBody;
+            //document.getElementById('bady_case').style.textShadow = `0 0.032em 0 ${color}`;
             //bady_case
             document.getElementById('tag_secao_case').style.color = "white";
             document.getElementById('tag_logo_secao_case').style.color = "white";
